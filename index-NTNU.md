@@ -69,10 +69,10 @@ knit        : slidify::knit2slides
 **Colorless green ideas sleep furiously.**
 
 *** =left
-<img src='assets/img/why01.png' style='max-width: 100%;max-height: 100%'></img>
+<img src='assets/img/why01.png'></img>
 
 *** =right
-<img src='assets/img/why02.jpg' style='max-width: 100%;max-height: 100%'></img>
+<img src='assets/img/why02.jpg'></img>
 
 *** =pnotes
 Standard Cognitive Science vs. Conceptualized Embodiment
@@ -106,7 +106,7 @@ Standard Cognitive Science vs. Conceptualized Embodiment
 ---
 ## Sentence-picture verification: Example
 
-<img src='assets/img/example01.png' style='max-width: 100%;max-height: 100%'></img>
+<img src='assets/img/example01.png'></img>
 
 符合嗎?
 
@@ -382,7 +382,7 @@ SP_RT1 <- barplot2(
 
 ## Open to public
 [Tmuse](http://naviprox.net/tmuse/tmuse)
-<img src='assets/img/tmuse.jpg' style='max-width: 100%;max-height: 100%'></img>
+<img src='assets/img/tmuse.jpg'></img>
 
 ---
 ## Spirit of hackers
