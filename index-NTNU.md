@@ -14,11 +14,11 @@ knit        : slidify::knit2slides
 
 ## Outline
 1. A big picture <font color="green"><b>5 %</b></font>
-2. Word decoding <font color="green"><b>10 %</b></font>
-3. Measure mental simulation <font color="green"><b>57.5 %</b></font>
-4. A trip to open science  <font color="green"><b>27.5 %</b></font>
+2. Word decoding: Timeline of my studies <font color="green"><b>10 %</b></font>
+3. Embodied cognition: Measure mental simulation <font color="green"><b>57.5 %</b></font>
+4. Open science  <font color="green"><b>27.5 %</b></font>
 </br>
-[See source files]()  
+[See source files](https://github.com/SCgeeker/ActObj2014/tree/master)  
 </br>
 [My Academia](https://tzuchi.academia.edu/SauChinChen)
 
@@ -32,7 +32,7 @@ knit        : slidify::knit2slides
 
 ---  .segue .dark
 
-## Word decoding
+## Word decoding: Timeline of my studies
 
 --- 
 ## Past
@@ -62,7 +62,7 @@ knit        : slidify::knit2slides
 
 ---  .segue .dark
 
-## Embodied cognition
+## Embodied cognition: Measure mental simulation
 
 --- &twocol
 ## Why?

@@ -28,7 +28,7 @@ fig <- function(path, size = 100) {
 3. Embodied cognition: Measure mental simulation <font color="green"><b>`r paste(100*(31-8)/40, "%")`</b></font>
 4. Open science  <font color="green"><b>`r paste(100*(42-31)/40, "%")`</b></font>
 </br>
-[See source files](https://github.com/SCgeeker/ActObj)  
+[See source files](https://github.com/SCgeeker/ActObj2014/tree/master)  
 </br>
 [My Academia](https://tzuchi.academia.edu/SauChinChen)
 
