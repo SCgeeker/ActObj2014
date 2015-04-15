@@ -1,8 +1,8 @@
 ---
-title       : Embodied Simulation Effects
-subtitle    : A practice of Reproducible Research
-author      : 陳紹慶  胡中凡(共同主持人)
-job         : 慈濟大學人類發展學系   成功大學心理學系
+title       : Surf in word decoding and embodied cognition
+subtitle    : A trip to open science
+author      : 陳紹慶
+job         : 慈濟大學人類發展學系
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -16,79 +16,109 @@ library(stringr)
 library(gplots)
 library(xtable)
 })
+fig <- function(path, size = 100) {
+  sprintf("<img src='assets/img/%s' style='max-width: %d%%;max-height: %d%%'></img>", 
+          path, size, size)
+}
 ```
 
 ## Outline
-1. Why study mental simulation
-2. How to measure mental simulation
-3. Experiment and findings
-4. Reproducibility
+1. A big picture <font color="green"><b>`r paste(100*(4-2)/40, "%")`</b></font>
+2. Word decoding: Timeline of my studies <font color="green"><b>`r paste(100*(8-4)/40, "%")`</b></font>
+3. Embodied cognition: Measure mental simulation <font color="green"><b>`r paste(100*(31-8)/40, "%")`</b></font>
+4. Open science  <font color="green"><b>`r paste(100*(42-31)/40, "%")`</b></font>
+</br>
+[See source files](https://github.com/SCgeeker/ActObj)  
+</br>
+[My Academia](https://tzuchi.academia.edu/SauChinChen)
 
+---  .segue .dark
 
-[See source files](https://github.com/SCgeeker/ActObj)
+## A big picture
+
+---
+</br>
+`r fig("ResearchStatement2015.png")`
+
+---  .segue .dark
+
+## Word decoding: Timeline of my studies
+
+--- 
+## Past
+>- Compound character (像、形)
+ + Regularity and Consistency effects
+ + Two mental functions to acqurie and process the orthography-phonology correspondences.
+
+>- Compound word (真實、假設)
+ + Masked repetition and word frequency interaction
+ + Early processing of constituent characters versus Reduced processing of whole word
+
+---
+## Today
+>- Orthography of Chinese characters
+ + What are samllest radicals to describe traditional and simplified Chinese characters?
+
+>- Morphology of Chinese compound words
+ + What are quantitative and qualitative aspects of compounds/constituents?
+
+>- Data science approach
+ + Search engine for multipe databases (Corpus, Mega studies, ...)
+ + Toolbox to design a word processing study
+
+---
+## Mental Lexical Entry Project
+`r fig("Interface.jpg")`
+
+---  .segue .dark
+
+## Embodied cognition: Measure mental simulation
 
 --- &twocol
 ## Why?
 **Colorless green ideas sleep furiously.**
 
 *** =left
-<img src="assets/img/why01.png" width="225" height="225">
+`r fig("why01.png")`
 
 *** =right
-<img src="assets/img/why02.jpg" width="225" height="225">
+`r fig("why02.jpg")`
 
 *** =pnotes
-Standard Cognitive Computation vs. Conceptualized Embodiment
+Standard Cognitive Science vs. Conceptualized Embodiment
+
 
 --- &twocol
 ## How many perspectives?
+  
  |Shapiro(2010) |Rowlands(2010)  
 --- | ------------- | --------------  
  |<font color="red">Conceptulization</font>|Embodied mind  
  |Replacement |Enacted mind  
  |Constitution |Extended mind, Embeded mind  
 
-![book](assets/img/VTR.jpg)
+`r fig("VTR.jpg")`
 
 
---- .dark .segue
-
+---
 ## How to measure mental simulation?
-
---- 
-## Measurements
 >- Sentence-picture verification task
   + Matching effect
 >- Word color discrimination
   + Compatibility effect (Simon effect)
 
 ---
+## Sentence-picture verification: Example
+>- 我想吃盤子裡的**蛋**.
 
-## Sentence-picture verification: Example01
->- I want to eat the **egg** in the *refrigerator*.
-
->- Naming the picture next slide.
-
----
-## Sentence-picture verification: Example01
-
-![ex02](assets/img/example02.png)  
-
-*** =pnotes
-Bite your tongue?
+>- 檢查下一張簡報的**圖**是否符合粗體字標示的詞.
 
 ---
-## Sentence-picture verification: Example02
->- I want to eat the **egg** in the *dish*.
+## Sentence-picture verification: Example
 
->- Match the **picture** and **bold word** in next slide.
+`r fig("example01.png")`
 
----
-## Sentence-picture verification: Example02
-
-![ex01](assets/img/example01.png)   
-
-Is it match?
+符合嗎?
 
 1. YES
 2. NO
@@ -129,7 +159,6 @@ Zwaan, Stanfield, & Yaxley (2002)
 </br>
 </br>
 <center><h2>Could we investigate the implicit processing of mental simulation?</h2></center>
-
 
 *** =pnotes
 
@@ -211,44 +240,7 @@ De Houwer(2003), Experiment 1
 >- In the word color discrimination task, human mind would process the implicit association of the **action** and the **feeling**.
   + Compatibility effect would happen to the word represented **action** or **feeling** but the color instructed the incompatible response key.
 
----
-## Procedure
-![procedure](assets/img/Procedure2014.png)
-
----
-## Sentence-Picture Verification: Stimuli Sentence
-![Design01](assets/img/Figures_Design01.png)
-
----
-## Sentence-Picture Verification: Stimuli Picture
-![STI](assets/img/STI2014.svg)
-
----
-## Sentence-Picture Verification: Response keys
-![KEY01](assets/img/KEY01.jpg)
-
----
-## Word Color Discrimination: Twist-Tide Pick-Loose
-![Design02](assets/img/Figures_Design02A.jpg)
-
----
-## Word Color Discrimination: Twist-Loose Pick-Tide
-![Design02](assets/img/Figures_Design02B.jpg)
-
----
-## Word Color Discrimination: Response keys
-![KEY02](assets/img/KEY02.jpg)
-
----
-## Analysis protocal
->- Sentence-picture verification
-   + Response key sets _X_ Matching
-   + All trials in warm up blocks 1~5
->- Word-color discrimination
-   + Three sets of target words: Blue critical, Green critical, Filler
-   + Critical words: Word types _X_ Association types _X_ Compatibility
-   + Filler words: Word types _X_ (Test) Blocks _X_ Compatibility
-```{r echo = FALSE, warning=FALSE, message=FALSE, label="SP-Dataset"}
+```{r SP-Dataset, echo = FALSE, warning=FALSE, message=FALSE}
 #library(multcomp)
 
 # Tidy data of sentence-picture verification
@@ -433,13 +425,6 @@ text(c("n.s.","*"),x=x.text,y=y.text)
 ```
 
 
----
-## Sentence-Picture Verification: ANOVA
-```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis', label = "SP-Anova"}
-colnames(AB_DATA) <- c("ID","Series","Situation","Matching","RT","PE")
-SP.aov <- aov(RT ~Series*Situation*Matching + Error( ID/Matching ), data = AB_DATA )
-print(xtable(summary( SP.aov ) ), type="html",floating=FALSE)
-```
 
 --- &twocol
 
@@ -527,33 +512,6 @@ text(c("n.s.","n.s.","n.s."),x=x.text,y=y.text)
 
 ```
 
----
-
-## Word Color Discrimination: Critical Blue Words
-
-```{r Blue-ANOVA1, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-colnames(BLUE_CRIT) <- c("ID","Series","Blocks","Situations","Compatibility","RT","PE")
-BC_RT.aov <- aov(RT ~ Series*Blocks*Compatibility + Error( ID/(Blocks*Compatibility) ), data = BLUE_CRIT )
-print(xtable(summary( BC_RT.aov ) ), type="html",floating=FALSE)
-
-```
-
----
-
-## Word Color Discrimination: Critical Blue Words
-
-*Twist-Tide*
-```{r Blue-ANOVA2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-BC_RT_A.aov <- aov(RT ~ Blocks*Compatibility + Error( ID/(Blocks*Compatibility) ), data = BLUE_CRIT[BLUE_CRIT$Series == 'I',] )
-print(xtable(summary( BC_RT_A.aov ) ), type="html", digits=0)
-```
-
-*** =pnotes
-*Pick-Hard*
-```{r Blue-ANOVA3, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-BC_RT_B.aov <- aov(RT ~ Blocks*Compatibility + Error( ID/(Blocks*Compatibility) ), data = BLUE_CRIT[BLUE_CRIT$Series == 'J',] )
-print(xtable(summary( BC_RT_B.aov ) ), type="html", digits=0)
-```
 
 --- &twocol
 
@@ -637,35 +595,9 @@ text(c("n.s.","n.s.","n.s."),x=x.text,y=y.text)
 
 ```
 
----
 
-## Word Color Discrimination: Critical Green Words
-
-```{r Green-ANOVA1, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-colnames(GREEN_CRIT) <- c("ID","Series","Blocks","Situations","Compatibility","RT","PE")
-GC_RT.aov <-  aov(RT ~ Series*Blocks*Compatibility + Error( ID/(Blocks*Compatibility) ), data = GREEN_CRIT )
-print(xtable(summary( GC_RT.aov ) ), type="html",floating=FALSE)
-```
-
----
-
-## Word Color Discrimination: Critical Green Words
-
-*Pick-Soft*
-```{r Green-ANOVA2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-GC_RT_A.aov <- aov(RT ~ Blocks*Compatibility + Error( ID/(Blocks*Compatibility) ), data = GREEN_CRIT[GREEN_CRIT$Series == 'I',] )
-print(xtable(summary( GC_RT_A.aov ) ), type="html", digits=2)
-```
-
-*** =pnotes
-*Twist-Loose*
-```{r Green-ANOVA3, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-GC_RT_B.aov <- aov(RT ~ Blocks*Compatibility + Error( ID/(Blocks*Compatibility) ), data = GREEN_CRIT[GREEN_CRIT$Series == 'J',] )
-print(xtable(summary( GC_RT_B.aov ) ), type="html", digits=2)
-```
 
 --- &twocol
-
 ## Word Color Discrimination: Fillers
 
 *** =left
@@ -800,7 +732,8 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 ```
 
 ---
-## Summary
+## Summary and Implication
+>- Replicating in the other LAB
 >- Sentence-picture Verification
   + Action exhausted strength: Positive for **tide**; Negative for **loose**
   + Action exhausted nothing: Positive Matching Effects
@@ -808,60 +741,45 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
   + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **tide**
   + Critical words connected to the action exhausted nothing: Null compatibility effects but tend to negative
   + Filler words: Repetition failed to cause compatibility effects
-
----
-## Implications
 - Two aspects of embodied simulation effect
  1. Explicit: Human minds process the surface of imagination/mental simulation.
  2. Implicit: Human minds process the ingrideints under imagination/mental simulation.
 
 
---- &vcenter
+---  .segue .dark
 
-</br>
-
-</br>
-
-<center><h1>A Practice of Reproducible Research</h1></center>
-
+## Open Science
 
 ---
-## Workflow of Psychological Research
+
+## Conditions 
+- Reproducible research
+- Mass collaboration
+
+---
+
+## Research Workflow 
 </br>
 <center><h3>Suggest Hypothesis -> Design -> Collect Data -> Analyze Data -> Report</h3></center>
 
 ---
-## Workflow of Psychological Research
-**Replication**
-<center><h3>Propose Question -> <font color="red">Design -> Collect Data -> Analyze Data -> Report</font></h3></center>
 
->- Participants
->- Instruments
->- Experimental Codes
->- Analytical Codes
-
----
-## Workflow of Psychological Research
-**Reproduction**
-<center><h3>Suggest Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report</b></font></center>
+## Reproducible Research Workflow
+</br>
+<center><h3>Suggest Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report -> Post Review</b></font></center>
 
 >- Analytical Codes
   + Cleaned data (Readable format, codebook)
   + Programming codes (R, SAS, SPSS, Matlab, ...)
 
 ---
-## Replication versus Reproduction
 
->- Academic society hardly define the standards of replication.
+## Make a Research Case Reproducible
 
->- Sharing codes is the universal standard of reproducibility.
-
----
-## ## Make a Research Case Reproducible
-
-- Share analytical codes 
-- Share stimulus
-- Share raw and analytical data <- will be available when published
+- An open repository:
+ + Share analytical codes 
+ + Share materials
+ + Share raw and analytical data <- will be available when published
 ```{r echo = TRUE, results = "none", eval=FALSE, warning=FALSE, message=FALSE}
 #Tidy data of sentence-picture verification
 AB_DATA <- read.table("../AB.csv",head=T,sep=",")
@@ -876,18 +794,57 @@ SP_RT1 <- barplot2(
     ci.u = (SP_RT_M[,c(1,4)] + SP_RTse_M[,c(1,4)]),
     panel.first = TRUE )
 ```
----
-## A Reproducibile Psychological Research
 
->- Transparency
+---
+
+## Mass Collaboration
+
+>- Motivation
+  + Open to public
+  + Spirit of hackers
+>- Open repositories
   + Easy access
-  + Smooth workflow
->- Quality and Integrity
-  + Peer evaluation
-  + Post-publish review
-  + Making composition and analysis at a pipeline
-  + ( Focus on the hypothesis )
->- Teaching and Training
-  + Enhance critical thinking
-  + Merge concepts and skills
->- .....
+  + Stimulate collaboration
+
+---
+
+## Open to public
+[萌典](https://www.moedict.tw/)
+</br>
+`r fig("moelab.jpg")`
+
+---
+
+## Open to public
+[Tmuse](http://naviprox.net/tmuse/tmuse)
+`r fig("tmuse.jpg")`
+
+---
+## Spirit of hackers
+[萌典共同筆記](https://g0v.hackpad.com/3du.tw-ZNwaun62BP4)
+</br>
+</br>
+[Lopen Project](http://lopen.linguistics.ntu.edu.tw/)  
+</br>
+</br>
+</br>
+<font color="red">Wish have connection with Lopen and anyone who have a hacker in heart.</font>
+
+---
+
+## Easy access
+[Github](https://github.com/)  
+</br>
+[Open Science Framework](https://osf.io/)
+</br>
+[Preview our Embodied Simulation Project](https://osf.io/gqf8k/?view_only=9a77fe9b5c4542ceb09bf759105fae03)  
+
+---
+
+## Stimulate collaboration
+- Leave this presentation an issue on Github.
+- Create a project on OSF.
+
+--- .dark .segue
+
+## Q&A

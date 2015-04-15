@@ -34,12 +34,8 @@ knit        : slidify::knit2slides
 *** =pnotes
 Standard Cognitive Computation vs. Conceptualized Embodiment
 
---- .dark .segue
-
-## How many perspectives?
-
 --- &twocol
-  
+## How many perspectives?
  |Shapiro(2010) |Rowlands(2010)  
 --- | ------------- | --------------  
  |<font color="red">Conceptulization</font>|Embodied mind  
@@ -135,8 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 There is no standard paradigm to measure the implicit mental simulation.
 
 ---
-## Implicit Mental Simulation?
->- Implicit Associative Learning
+## Implicit Associative Learning
 >- *Implicit Associative Task* (Greenwald, McGhee, & Schwartz, 1998)
 >- *Affective Priming Task* (Fazio, Jackson, Dunton, & Williams, 1995)
 >- Emotion Simulation Hypothesis
@@ -479,8 +474,8 @@ De Houwer(2003), Experiment 1
 <center><h3>Suggest Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report</b></font></center>
 
 >- Analytical Codes
-  + Clean data
-  + Analytical programming
+  + Cleaned data (Readable format, codebook)
+  + Programming codes (R, SAS, SPSS, Matlab, ...)
 
 ---
 ## Replication versus Reproduction
@@ -490,7 +485,7 @@ De Houwer(2003), Experiment 1
 >- Sharing codes is the universal standard of reproducibility.
 
 ---
-## Practical Reproducible Research
+## ## Make a Research Case Reproducible
 
 - Share analytical codes 
 - Share stimulus
@@ -518,9 +513,9 @@ SP_RT1 <- barplot2(
   + Smooth workflow
 >- Quality and Integrity
   + Peer evaluation
-  + Manage collaboration system (github, open science framework...)
+  + Post-publish review
   + Making composition and analysis at a pipeline
-  + Focus on the hypothesis
+  + ( Focus on the hypothesis )
 >- Teaching and Training
   + Enhance critical thinking
   + Merge concepts and skills
