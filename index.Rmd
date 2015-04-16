@@ -228,11 +228,11 @@ De Houwer(2003), Experiment 1
 ![KEY01](assets/img/KEY01.jpg)
 
 ---
-## Word Color Discrimination: Twist-Tide Pick-Loose
+## Word Color Discrimination: Twist-tight Pick-Loose
 ![Design02](assets/img/Figures_Design02A.jpg)
 
 ---
-## Word Color Discrimination: Twist-Loose Pick-Tide
+## Word Color Discrimination: Twist-Loose Pick-tight
 ![Design02](assets/img/Figures_Design02B.jpg)
 
 ---
@@ -281,7 +281,7 @@ F2a <- c(
    + Twist: *Close* had a positive effect; *Open* had a negative effect.
    + Pick: *Cube* and *Sponge* had positive effects.
 >- Compatibility Effects
-   + Blue Critical Words: **Twist-Tide** had a positive effect,
+   + Blue Critical Words: **Twist-tight** had a positive effect,
    + Greeb Crutucak Wirds: All sets tend to be negative.
    + Filler Words: No effects.
 ```{r echo=FALSE, results='hide', message=FALSE, label="WordColor-Dataset"}
@@ -449,12 +449,12 @@ print(xtable(summary( SP.aov ) ), type="html",floating=FALSE)
 ```{r Blue-Critical1, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide'}
 CRITIC_RT_BA <- matrix(
             CRITIC_RT[c(11,12,3,4,7,8)], 2, 3,
-            dimnames = list(c("C", "I"), c("Twist","Tide", "Hard"))
+            dimnames = list(c("C", "I"), c("Twist","Tight", "Hard"))
 )
 
 CRITIC_RTse_BA <- matrix(
     rep(CRITIC_RTsd[c(6,2,4)],each=2)*t(1/rep(sqrt(nA),6)  ), 2, 3,
-  dimnames = list(c("C", "I"), c("Twist","Tide", "Hard"))
+  dimnames = list(c("C", "I"), c("Twist","Tight", "Hard"))
 )
 
 Critical_A_Twist <- barplot2(
@@ -490,12 +490,12 @@ text(c("*","n.s.","n.s."),x=x.text,y=y.text)
 
 CRITIC_RT_BB <- matrix(
     CRITIC_RT[c(21,22,19,20,15,16)], 2, 3,
-    dimnames = list(c("C", "I"), c("Pick","Hard", "Tide"))
+    dimnames = list(c("C", "I"), c("Pick","Hard", "Tight"))
 )
 
 CRITIC_RTse_BB <- matrix(
     rep(CRITIC_RTsd[c(11,10,8)],each=2)*t(1/rep(sqrt(nB),6)  ), 2, 3,
-    dimnames = list(c("C", "I"), c("Pick","Hard", "Tide"))
+    dimnames = list(c("C", "I"), c("Pick","Hard", "Tight"))
 )
 
 
@@ -542,7 +542,7 @@ print(xtable(summary( BC_RT.aov ) ), type="html",floating=FALSE)
 
 ## Word Color Discrimination: Critical Blue Words
 
-*Twist-Tide*
+*Twist-Tight*
 ```{r Blue-ANOVA2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 BC_RT_A.aov <- aov(RT ~ Blocks*Compatibility + Error( ID/(Blocks*Compatibility) ), data = BLUE_CRIT[BLUE_CRIT$Series == 'I',] )
 print(xtable(summary( BC_RT_A.aov ) ), type="html", digits=0)
@@ -802,10 +802,10 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 ---
 ## Summary
 >- Sentence-picture Verification
-  + Action exhausted strength: Positive for **tide**; Negative for **loose**
+  + Action exhausted strength: Positive for **tight**; Negative for **loose**
   + Action exhausted nothing: Positive Matching Effects
 >- Word Color Discrimination
-  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **tide**
+  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **tight**
   + Critical words connected to the action exhausted nothing: Null compatibility effects but tend to negative
   + Filler words: Repetition failed to cause compatibility effects
 

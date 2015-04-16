@@ -1,5 +1,5 @@
 ---
-title       : Surf in word decoding and embodied cognition
+title       : Word Decoding + Embodied Cognition
 subtitle    : A trip to open science
 author      : 陳紹慶
 job         : 慈濟大學人類發展學系
@@ -81,10 +81,10 @@ knit        : slidify::knit2slides
 **Colorless green ideas sleep furiously.**
 
 *** =left
-<img src='assets/img/why01.png'></img>
+<img src="assets/img/why01.png"></img>
 
 *** =right
-<img src='assets/img/why02.jpg'></img>
+<img src="assets/img/why02.jpg"></img>
 
 *** =pnotes
 Standard Cognitive Science vs. Conceptualized Embodiment
@@ -174,12 +174,12 @@ There is no standard paradigm to measure the implicit mental simulation.
 >- Word meaning classification -> Establish meaning-response compatibility
    + Key 1 = *Happy*   Key 2 = *Disgust*
 >- Word color discrimination -> Measure compatibity effect
-   + Key 1 = Color1    Key 2 = Color2
+   + Key 1 = <font color="blue">Color1</font>    Key 2 = <font color="green">Color2</font>
    + Word 1 = *Happy*  Word 2 = *Disgust*
 >- Compatible Case
-   + Key 1 ~ *Happy*   Key 2 ~ *Disgust*
+   + Key 1 ~ <font color="blue">*Happy*</font>   Key 2 ~ <font color="green">*Disgust*</font>
 >- Incompatible Case
-   + Key 1 ~ *Disgust*   Key 2 ~ *Happy*
+   + Key 1 ~ <font color="blue">*Disgust*</font>   Key 2 ~ <font color="green">*Happy*</font>
 
 ---
 ## Original EAST Results
@@ -216,14 +216,14 @@ De Houwer(2003), Experiment 1
 ---
 ## Situational Properties 
 >- **Actions**
-   + Observe: have not to exhaust strength
-   + Move: have to exhaust strength
+   + Observe(<font color="red">pick</font>): have not to exhaust strength
+   + Move(<font color="red">twist</font>): have to exhaust strength
 >- **Objects**
-   + Observed objects generate the feeling about *texture*
-   + Moved objects generate the feeling about *weight*
+   + Observed objects (cubes) generate the feeling about *texture*
+   + Moved objects (jars) generate the feeling about *strength*
 >- **Feelings**
-   + Texture
-   + Weight
+   + Texture (<font color="red">hard, soft</font>)
+   + Strength(<font color="red">tight, loose</font>)
 
 ---
 ## Critical Measurements
@@ -247,8 +247,8 @@ De Houwer(2003), Experiment 1
    + Twist: *Close* had a positive effect; *Open* had a negative effect.
    + Pick: *Cube* and *Sponge* had positive effects.
 >- Compatibility Effects
-   + Blue Critical Words: **Twist-Tide** had a positive effect,
-   + Greeb Crutucak Wirds: All sets tend to be negative.
+   + Blue Critical Words: **Twist** had a positive effect,
+   + Green Critical Words: All sets tend to be negative.
    + Filler Words: No effects.
 
 
@@ -390,6 +390,7 @@ SP_RT1 <- barplot2(
 [Lopen Project](http://lopen.linguistics.ntu.edu.tw/)  
 </br>
 <font color="red">Mental Lexical Entry Project + Lopen + Moe Dict + ... = Open Source Hub</font>
+</br>
 <img src='assets/img/wish.png' style='max-width: 100%;max-height: 100%'></img>
 
 ---
@@ -402,15 +403,15 @@ SP_RT1 <- barplot2(
 [Preview our Embodied Simulation Project](https://osf.io/gqf8k/?view_only=9a77fe9b5c4542ceb09bf759105fae03)  
 </br>
 </br>
-<center>**Litaracy = Sense of analysis?**</center>
+<center>**Reader = Sense of analysis?**</center>
 </br>
 <center>**Writer = Programmer?**</center>
 
 ---
 
 ## Stimulate collaboration
-- Leave this presentation an issue on Github.
-- Create a project on OSF.
+- Leave this presentation an issue on [Github](https://www.github.com).
+- Join a public project on [OSF](https://osf.io).
 
 --- .dark .segue
 
