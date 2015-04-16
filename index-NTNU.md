@@ -14,8 +14,8 @@ knit        : slidify::knit2slides
 
 ## Outline
 1. A big picture <font color="green"><b>5 %</b></font>
-2. Word decoding: Timeline of my studies <font color="green"><b>10 %</b></font>
-3. Embodied cognition: Measure mental simulation <font color="green"><b>57.5 %</b></font>
+2. Word decoding: Timeline of my studies <font color="green"><b>12.5 %</b></font>
+3. Embodied cognition: Measure mental simulation <font color="green"><b>55 %</b></font>
 4. Open science  <font color="green"><b>27.5 %</b></font>
 </br>
 [See source files](https://github.com/SCgeeker/ActObj2014/tree/master)  
@@ -36,7 +36,7 @@ knit        : slidify::knit2slides
 
 --- 
 ## Past
->- Compound character (像、形)
+>- Compound character (像、經)
  + Regularity and Consistency effects
  + Two mental functions to acqurie and process the orthography-phonology correspondences.
 
@@ -57,8 +57,20 @@ knit        : slidify::knit2slides
  + Toolbox to design a word processing study
 
 ---
-## Mental Lexical Entry Project
+## Mental Lexical Entry Project: Framework
 <img src='assets/img/Interface.jpg' style='max-width: 100%;max-height: 100%'></img>
+- Primary goal: Direct mapping traditational and simplified Chinese characters.
+
+---
+## Mental Lexical Entry Project: Applications
+>- For Researchers
+  + Use one key number access multiple databases.
+>- For Tutors
+  + Accumulate students' records
+  + Evidence based suggestions
+>- For Students
+  + Converge materials across scripts.
+  + Fit the individual learning curve.
 
 ---  .segue .dark
 
@@ -130,7 +142,7 @@ Hardly choose **YES**?
   
 Zwaan, Stanfield, & Yaxley (2002)   
 >- Embodied Simulation Hypothesis: "Perceptual symbols are activated after reading sentence"   
->- Supoort the idea of **Perceptual Symbol System**(Barsalou, 1999)
+>- Supoort **Perceptual Symbol System**(Barsalou, 1999)
 
 ---
 ## Matching Effects
@@ -150,22 +162,15 @@ Zwaan, Stanfield, & Yaxley (2002)
 --- &vcenter .large
 </br>
 </br>
-<center><h2>Could we investigate the implicit processing of mental simulation?</h2></center>
+<center><h3>Could we investigate the implicit processing of mental simulation?</h3></center>
 
 *** =pnotes
 
 There is no standard paradigm to measure the implicit mental simulation.
 
----
-## Implicit Associative Learning
->- *Implicit Associative Task* (Greenwald, McGhee, & Schwartz, 1998)
->- *Affective Priming Task* (Fazio, Jackson, Dunton, & Williams, 1995)
->- Emotion Simulation Hypothesis
-  + Emotion categorization task (Niedenthal et al., 2009; Baumeister et al., 2015)
->- *Extrinsic Affective Simon Task* (EAST; De Houwer, 2003)
 
 ---
-## Original EAST Design
+## Extrinsic Affective Simon Task (De Houwer, 2003)
 >- Word meaning classification -> Establish meaning-response compatibility
    + Key 1 = *Happy*   Key 2 = *Disgust*
 >- Word color discrimination -> Measure compatibity effect
@@ -298,17 +303,11 @@ De Houwer(2003), Experiment 1
 ---
 ## Summary and Implication
 >- Replicating in the other LAB
->- Sentence-picture Verification
-  + Action exhausted strength: Positive for **tide**; Negative for **loose**
-  + Action exhausted nothing: Positive Matching Effects
->- Word Color Discrimination
-  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **tide**
-  + Critical words connected to the action exhausted nothing: Null compatibility effects but tend to negative
-  + Filler words: Repetition failed to cause compatibility effects
-- Two aspects of embodied simulation effect
+>- Action (did or did not) exhausted strength
+>- Two aspects of embodied simulation effect
  1. Explicit: Human minds process the surface of imagination/mental simulation.
  2. Implicit: Human minds process the ingrideints under imagination/mental simulation.
-
+>- <font color="red">Evoke embodied simulation in language comprehension?</font>
 
 ---  .segue .dark
 
@@ -316,7 +315,7 @@ De Houwer(2003), Experiment 1
 
 ---
 
-## Conditions 
+## Elements 
 - Reproducible research
 - Mass collaboration
 
@@ -388,12 +387,10 @@ SP_RT1 <- barplot2(
 ## Spirit of hackers
 [萌典共同筆記](https://g0v.hackpad.com/3du.tw-ZNwaun62BP4)
 </br>
-</br>
 [Lopen Project](http://lopen.linguistics.ntu.edu.tw/)  
 </br>
-</br>
-</br>
-<font color="red">Wish have connection with Lopen and anyone who have a hacker in heart.</font>
+<font color="red">Mental Lexical Entry Project + Lopen + Moe Dict + ... = Open Source Hub</font>
+<img src='assets/img/wish.png' style='max-width: 100%;max-height: 100%'></img>
 
 ---
 
@@ -403,6 +400,11 @@ SP_RT1 <- barplot2(
 [Open Science Framework](https://osf.io/)
 </br>
 [Preview our Embodied Simulation Project](https://osf.io/gqf8k/?view_only=9a77fe9b5c4542ceb09bf759105fae03)  
+</br>
+</br>
+<center>**Litaracy = Sense of analysis?**</center>
+</br>
+<center>**Writer = Programmer?**</center>
 
 ---
 
