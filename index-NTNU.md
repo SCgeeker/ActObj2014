@@ -80,6 +80,9 @@ knit        : slidify::knit2slides
 --- &twocol
 ## Why?
 **Colorless green ideas sleep furiously.**
+</br>
+</br>
+>- <center>Standard Cognitive Science vs. Conceptualized Embodiment</center>
 
 *** =left
 <img src="assets/img/why01.png"></img>
@@ -87,8 +90,6 @@ knit        : slidify::knit2slides
 *** =right
 <img src="assets/img/why02.jpg"></img>
 
-*** =pnotes
->- Standard Cognitive Science vs. Conceptualized Embodiment
 
 
 ---
@@ -120,6 +121,9 @@ knit        : slidify::knit2slides
 ## Sentence-picture verification: Example
 
 <img src='assets/img/example01.png'></img>
+</br>
+</br>
+>- <center>Hardly choose **YES**?</center>
 
 符合嗎?
 
@@ -127,13 +131,11 @@ knit        : slidify::knit2slides
 2. NO
 
 
->- Hardly choose **YES**?
-
 ---
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 09:04:46 2015 -->
+<!-- Fri Apr 17 09:45:54 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -183,7 +185,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 09:04:46 2015 -->
+<!-- Fri Apr 17 09:45:54 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Happy </th> <th> Disgust </th>  </tr>
   <tr> <td> Compatible </td> <td align="right"> 660.00 </td> <td align="right"> 707.00 </td> </tr>

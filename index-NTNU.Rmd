@@ -92,6 +92,9 @@ fig <- function(path, size = 100) {
 --- &twocol
 ## Why?
 **Colorless green ideas sleep furiously.**
+</br>
+</br>
+>- <center>Standard Cognitive Science vs. Conceptualized Embodiment</center>
 
 *** =left
 <img src="assets/img/why01.png"></img>
@@ -99,8 +102,6 @@ fig <- function(path, size = 100) {
 *** =right
 <img src="assets/img/why02.jpg"></img>
 
-*** =pnotes
->- Standard Cognitive Science vs. Conceptualized Embodiment
 
 
 ---
@@ -132,14 +133,15 @@ fig <- function(path, size = 100) {
 ## Sentence-picture verification: Example
 
 <img src='assets/img/example01.png'></img>
+</br>
+</br>
+>- <center>Hardly choose **YES**?</center>
 
 符合嗎?
 
 1. YES
 2. NO
 
-
->- Hardly choose **YES**?
 
 ---
 ## Matching Effects
