@@ -53,7 +53,7 @@ knit        : slidify::knit2slides
  + What are quantitative and qualitative aspects of compounds/constituents?
 
 >- Data science approach
- + Search engine for multipe databases (Corpus, Mega studies, ...)
+ + Search engine for linguistic and psychological databases (Corpus, Mega studies, ...)
  + Toolbox to design a word processing study
 
 ---
@@ -90,7 +90,7 @@ knit        : slidify::knit2slides
 Standard Cognitive Science vs. Conceptualized Embodiment
 
 
---- &twocol
+---
 ## How many perspectives?
   
  |Shapiro(2010) |Rowlands(2010)  
@@ -133,7 +133,7 @@ Hardly choose **YES**?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:48 2015 -->
+<!-- Fri Apr 17 06:58:17 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -184,7 +184,7 @@ There is no standard paradigm to measure the implicit mental simulation.
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:48 2015 -->
+<!-- Fri Apr 17 06:58:17 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Happy </th> <th> Disgust </th>  </tr>
   <tr> <td> Compatible </td> <td align="right"> 660.00 </td> <td align="right"> 707.00 </td> </tr>
@@ -307,7 +307,7 @@ De Houwer(2003), Experiment 1
 >- Two aspects of embodied simulation effect
  1. Explicit: Human minds process the surface of imagination/mental simulation.
  2. Implicit: Human minds process the ingrideints under imagination/mental simulation.
->- <font color="red">Evoke embodied simulation in language comprehension?</font>
+>- <font color="red">Could I evoke embodied simulation in language comprehension?</font>
 
 ---  .segue .dark
 
@@ -323,15 +323,15 @@ De Houwer(2003), Experiment 1
 
 ## Research Workflow 
 </br>
-<center><h3>Suggest Hypothesis -> Design -> Collect Data -> Analyze Data -> Report</h3></center>
+<center><h3>Propose Hypothesis -> Design -> Collect Data -> Analyze Data -> Report</h3></center>
 
 ---
 
 ## Reproducible Research Workflow
 </br>
-<center><h3>Suggest Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report -> Post Review</b></font></center>
+<center><h3>Propose Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report -> Post Review</b></font></center>
 
->- Analytical Codes
+>- Open analytical codes
   + Cleaned data (Readable format, codebook)
   + Programming codes (R, SAS, SPSS, Matlab, ...)
 
@@ -342,7 +342,7 @@ De Houwer(2003), Experiment 1
 - An open repository:
  + Share analytical codes 
  + Share materials
- + Share raw and analytical data <- will be available when published
+ + Share cleaned data <- will be available when published
 
 ```r
 #Tidy data of sentence-picture verification
@@ -411,7 +411,7 @@ SP_RT1 <- barplot2(
 
 ## Stimulate collaboration
 - Leave this presentation an issue on [Github](https://www.github.com).
-- Join a public project on [OSF](https://osf.io).
+- Join an active project on [OSF](https://osf.io).
 
 --- .dark .segue
 

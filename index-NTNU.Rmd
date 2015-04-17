@@ -63,7 +63,7 @@ fig <- function(path, size = 100) {
  + What are quantitative and qualitative aspects of compounds/constituents?
 
 >- Data science approach
- + Search engine for multipe databases (Corpus, Mega studies, ...)
+ + Search engine for linguistic and psychological databases (Corpus, Mega studies, ...)
  + Toolbox to design a word processing study
 
 ---
@@ -100,7 +100,7 @@ fig <- function(path, size = 100) {
 Standard Cognitive Science vs. Conceptualized Embodiment
 
 
---- &twocol
+---
 ## How many perspectives?
   
  |Shapiro(2010) |Rowlands(2010)  
@@ -142,7 +142,7 @@ Hardly choose **YES**?
 ---
 ## Matching Effects
 
-```{r echo=FALSE, comment=NA, results='asis', label="ZSYTable"}
+```{r echo=FALSE, comment=NA, results='asis', label="ZSYTable", cache=FALSE}
 ZSY2002.table <- xtable(matrix(c(697, 761, 97, 93), 2, 2, byrow=T, dimnames = list(c("RT", "Correct Rate"), c('Match', 'Mismatch'))) )
 align(ZSY2002.table) <- "|c|c|c|"
 print(ZSY2002.table, type = "html",floating=FALSE)
@@ -191,7 +191,7 @@ There is no standard paradigm to measure the implicit mental simulation.
 
 ---
 ## Original EAST Results
-```{r HouwerTable, echo=FALSE, comment=NA, results='asis'}
+```{r HouwerTable, echo=FALSE, comment=NA, results='asis', cache=FALSE}
 Houwer.table <- xtable(matrix(c(660, 707, 636, 678), 2, 2, byrow=T, dimnames = list(c("Compatible", "Incompatible"), c('Happy', 'Disgust'))) )
 align(Houwer.table) <- "|l|r|r|"
 print(Houwer.table, type = "html",floating=FALSE)
@@ -245,7 +245,7 @@ De Houwer(2003), Experiment 1
 >- In the word color discrimination task, human mind would process the implicit association of the **action** and the **feeling**.
   + Compatibility effect would happen to the word represented **action** or **feeling** but the color instructed the incompatible response key.
 
-```{r SP-Dataset, echo = FALSE, warning=FALSE, message=FALSE}
+```{r SP-Dataset, echo = FALSE, warning=FALSE, message=FALSE, cache.path="../cache/"}
 #library(multcomp)
 
 # Tidy data of sentence-picture verification
@@ -281,7 +281,7 @@ F2a <- c(
    + Blue Critical Words: **Twist** had a positive effect,
    + Green Critical Words: All sets tend to be negative.
    + Filler Words: No effects.
-```{r echo=FALSE, results='hide', message=FALSE, label="WordColor-Dataset"}
+```{r echo=FALSE, results='hide', message=FALSE, label="WordColor-Dataset", cache.path="../cache/"}
 SP_RT_M <- matrix(
   AB_RT,2,4,
   dimnames = list(c("C", "I"), c("Close Jar", "Pick Sponge", "Pick Cube", "Open Jar"))
@@ -373,7 +373,7 @@ GREEN_FILL = subset(T_DATA, F2 == 'G')
 ## Sentence-Picture Verification: Summary
 
 *** =left
-```{r SP-Result1, echo = FALSE, warning=FALSE, error = FALSE, message=FALSE, results='hide'}
+```{r SP-Result1, echo = FALSE, warning=FALSE, error = FALSE, message=FALSE, results='hide', cache=FALSE}
 SP_RT1 <- barplot2(
    SP_RT_M[,c(1,4)], beside=T,xpd=F,
     ylim = c(350,550),ylab="Response Time(ms)",
@@ -401,7 +401,7 @@ text(c("*","n.s."),x=x.text,y=y.text)
 
 *** =right
 
-```{r SP-Result2, echo = FALSE, warning=FALSE, error = FALSE, message=FALSE, results='hide'}
+```{r SP-Result2, echo = FALSE, warning=FALSE, error = FALSE, message=FALSE, results='hide', cache=FALSE}
 
 SP_RT2 <- barplot2(
   SP_RT_M[,c(3,2)], beside=T,xpd=F,
@@ -436,7 +436,7 @@ text(c("n.s.","*"),x=x.text,y=y.text)
 ## Word Color Discrimination: Critical Blue Words
 
 ***=left
-```{r Blue-Critical1, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide'}
+```{r Blue-Critical1, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide', cache=FALSE}
 CRITIC_RT_BA <- matrix(
             CRITIC_RT[c(11,12,3,4,7,8)], 2, 3,
             dimnames = list(c("C", "I"), c("Twist","Tight", "Hard"))
@@ -476,7 +476,7 @@ text(c("*","n.s.","n.s."),x=x.text,y=y.text)
 
 *** =right
 
-```{r Blue-Critical2, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide'}
+```{r Blue-Critical2, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide', cache=FALSE}
 
 CRITIC_RT_BB <- matrix(
     CRITIC_RT[c(21,22,19,20,15,16)], 2, 3,
@@ -523,7 +523,7 @@ text(c("n.s.","n.s.","n.s."),x=x.text,y=y.text)
 ## Word Color Discrimination: Critical Green Words
 
 *** =left
-```{r Green-Critical1, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide'}
+```{r Green-Critical1, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide', cache=FALSE}
 CRITIC_RT_GA <- matrix(
   CRITIC_RT[c(9,10,5,6,1,2)], 2, 3,
   dimnames = list(c("C", "I"), c("Pick","Soft","Loose"))
@@ -562,7 +562,7 @@ text(c("n.s.","n.s.","n.s."),x=x.text,y=y.text)
 
 *** =right
 
-```{r Green-Critical2, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide'}
+```{r Green-Critical2, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide', cache=FALSE}
 CRITIC_RT_GB <- matrix(
   CRITIC_RT[c(23,24,13,14,17,18)], 2, 3,
   dimnames = list(c("C", "I"), c("Twist","Loose","Soft"))
@@ -607,7 +607,7 @@ text(c("n.s.","n.s.","n.s."),x=x.text,y=y.text)
 
 *** =left
 *Blue*
-```{r Blue-Filler, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide'}
+```{r Blue-Filler, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide', cache=FALSE}
 par(mfrow=c(1, 2))
 
 FILL_RT_BF <- matrix(
@@ -673,7 +673,7 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 
 *** =right
 *Green*
-```{r Green-Filler, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide'}
+```{r Green-Filler, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, results='hide', cache=FALSE}
 par(mfrow=c(1, 2))
 
 FILL_RT_GF <- matrix(
@@ -743,7 +743,7 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 >- Two aspects of embodied simulation effect
  1. Explicit: Human minds process the surface of imagination/mental simulation.
  2. Implicit: Human minds process the ingrideints under imagination/mental simulation.
->- <font color="red">Evoke embodied simulation in language comprehension?</font>
+>- <font color="red">Could I evoke embodied simulation in language comprehension?</font>
 
 ---  .segue .dark
 
@@ -759,15 +759,15 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 
 ## Research Workflow 
 </br>
-<center><h3>Suggest Hypothesis -> Design -> Collect Data -> Analyze Data -> Report</h3></center>
+<center><h3>Propose Hypothesis -> Design -> Collect Data -> Analyze Data -> Report</h3></center>
 
 ---
 
 ## Reproducible Research Workflow
 </br>
-<center><h3>Suggest Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report -> Post Review</b></font></center>
+<center><h3>Propose Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report -> Post Review</b></font></center>
 
->- Analytical Codes
+>- Open analytical codes
   + Cleaned data (Readable format, codebook)
   + Programming codes (R, SAS, SPSS, Matlab, ...)
 
@@ -778,8 +778,8 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 - An open repository:
  + Share analytical codes 
  + Share materials
- + Share raw and analytical data <- will be available when published
-```{r echo = TRUE, results = "none", eval=FALSE, warning=FALSE, message=FALSE}
+ + Share cleaned data <- will be available when published
+```{r DEMO, echo = TRUE, results = "none", eval=FALSE, warning=FALSE, message=FALSE, cache=FALSE}
 #Tidy data of sentence-picture verification
 AB_DATA <- read.table("../AB.csv",head=T,sep=",")
 #Tidy data of word color discrimination
@@ -846,7 +846,7 @@ SP_RT1 <- barplot2(
 
 ## Stimulate collaboration
 - Leave this presentation an issue on [Github](https://www.github.com).
-- Join a public project on [OSF](https://osf.io).
+- Join an active project on [OSF](https://osf.io).
 
 --- .dark .segue
 
