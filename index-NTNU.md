@@ -18,6 +18,7 @@ knit        : slidify::knit2slides
 3. Embodied cognition: Measure mental simulation <font color="green"><b>55 %</b></font>
 4. Open science  <font color="green"><b>27.5 %</b></font>
 </br>
+[http://git.io/vvo6P](http://git.io/vvo6P)  
 [See source files](https://github.com/SCgeeker/ActObj2014/tree/master)  
 </br>
 [My Academia](https://tzuchi.academia.edu/SauChinChen)
@@ -132,7 +133,7 @@ knit        : slidify::knit2slides
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:28 2015 -->
+<!-- Fri Apr 17 09:04:46 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -182,7 +183,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:28 2015 -->
+<!-- Fri Apr 17 09:04:46 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Happy </th> <th> Disgust </th>  </tr>
   <tr> <td> Compatible </td> <td align="right"> 660.00 </td> <td align="right"> 707.00 </td> </tr>

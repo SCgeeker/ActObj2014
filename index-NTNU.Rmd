@@ -17,6 +17,7 @@ library(stringr)
 library(gplots)
 library(xtable)
 })
+opts_chunk$set(echo = FALSE, cache = TRUE, cache.path = "../cache/")
 fig <- function(path, size = 100) {
   sprintf("<img src='assets/img/%s' style='max-width: %d%%;max-height: %d%%'></img>", 
           path, size, size)
@@ -29,6 +30,7 @@ fig <- function(path, size = 100) {
 3. Embodied cognition: Measure mental simulation <font color="green"><b>`r paste(100*(31-9)/40, "%")`</b></font>
 4. Open science  <font color="green"><b>`r paste(100*(42-31)/40, "%")`</b></font>
 </br>
+[http://git.io/vvo6P](http://git.io/vvo6P)  
 [See source files](https://github.com/SCgeeker/ActObj2014/tree/master)  
 </br>
 [My Academia](https://tzuchi.academia.edu/SauChinChen)
