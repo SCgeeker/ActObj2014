@@ -837,9 +837,9 @@ SP_RT1 <- barplot2(
 [Preview our Embodied Simulation Project](https://osf.io/gqf8k/?view_only=9a77fe9b5c4542ceb09bf759105fae03)  
 </br>
 </br>
-<center>**Reader = Sense of analysis?**</center>
+<center>**Chinese reader = Sense of simulation?**</center>
 </br>
-<center>**Writer = Programmer?**</center>
+<center>**Chinese writer = Programmer?**</center>
 
 ---
 

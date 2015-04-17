@@ -132,7 +132,7 @@ knit        : slidify::knit2slides
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:37:35 2015 -->
+<!-- Fri Apr 17 08:48:28 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -182,7 +182,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:37:35 2015 -->
+<!-- Fri Apr 17 08:48:28 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Happy </th> <th> Disgust </th>  </tr>
   <tr> <td> Compatible </td> <td align="right"> 660.00 </td> <td align="right"> 707.00 </td> </tr>
@@ -401,9 +401,9 @@ SP_RT1 <- barplot2(
 [Preview our Embodied Simulation Project](https://osf.io/gqf8k/?view_only=9a77fe9b5c4542ceb09bf759105fae03)  
 </br>
 </br>
-<center>**Reader = Sense of analysis?**</center>
+<center>**Chinese reader = Sense of simulation?**</center>
 </br>
-<center>**Writer = Programmer?**</center>
+<center>**Chinese writer = Programmer?**</center>
 
 ---
 
