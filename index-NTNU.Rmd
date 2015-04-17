@@ -12,6 +12,7 @@ knit        : slidify::knit2slides
 ---
 ```{r setup, include=FALSE, cache=FALSE}
 suppressPackageStartupMessages({
+library(knitr)
 library(stringr)
 library(gplots)
 library(xtable)
@@ -97,7 +98,7 @@ fig <- function(path, size = 100) {
 <img src="assets/img/why02.jpg"></img>
 
 *** =pnotes
-Standard Cognitive Science vs. Conceptualized Embodiment
+>- Standard Cognitive Science vs. Conceptualized Embodiment
 
 
 ---
@@ -135,9 +136,8 @@ Standard Cognitive Science vs. Conceptualized Embodiment
 1. YES
 2. NO
 
-*** =pnotes
 
-Hardly choose **YES**?
+>- Hardly choose **YES**?
 
 ---
 ## Matching Effects
@@ -172,9 +172,8 @@ Zwaan, Stanfield, & Yaxley (2002)
 </br>
 <center><h3>Could we investigate the implicit processing of mental simulation?</h3></center>
 
-*** =pnotes
 
-There is no standard paradigm to measure the implicit mental simulation.
+>- There is no standard paradigm to measure the implicit mental simulation.
 
 
 ---

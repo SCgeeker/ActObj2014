@@ -87,7 +87,7 @@ knit        : slidify::knit2slides
 <img src="assets/img/why02.jpg"></img>
 
 *** =pnotes
-Standard Cognitive Science vs. Conceptualized Embodiment
+>- Standard Cognitive Science vs. Conceptualized Embodiment
 
 
 ---
@@ -125,15 +125,14 @@ Standard Cognitive Science vs. Conceptualized Embodiment
 1. YES
 2. NO
 
-*** =pnotes
 
-Hardly choose **YES**?
+>- Hardly choose **YES**?
 
 ---
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 06:58:17 2015 -->
+<!-- Fri Apr 17 08:37:35 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -164,9 +163,8 @@ Zwaan, Stanfield, & Yaxley (2002)
 </br>
 <center><h3>Could we investigate the implicit processing of mental simulation?</h3></center>
 
-*** =pnotes
 
-There is no standard paradigm to measure the implicit mental simulation.
+>- There is no standard paradigm to measure the implicit mental simulation.
 
 
 ---
@@ -184,7 +182,7 @@ There is no standard paradigm to measure the implicit mental simulation.
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 06:58:17 2015 -->
+<!-- Fri Apr 17 08:37:35 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Happy </th> <th> Disgust </th>  </tr>
   <tr> <td> Compatible </td> <td align="right"> 660.00 </td> <td align="right"> 707.00 </td> </tr>

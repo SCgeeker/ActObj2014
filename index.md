@@ -19,7 +19,7 @@ knit        : slidify::knit2slides
 4. Reproducibility
 
 
-![See source files]()
+[See source files](https://github.com/SCgeeker/ActObj)
 
 --- &twocol
 ## Why?
@@ -95,7 +95,7 @@ Hardly choose **YES**?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:48 2015 -->
+<!-- Fri Apr 17 08:40:47 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -124,7 +124,8 @@ Zwaan, Stanfield, & Yaxley (2002)
 --- &vcenter .large
 </br>
 </br>
-<center><h3>Could we investigate the mental simulation deeper?</h3></center>
+<center><h2>Could we investigate the implicit processing of mental simulation?</h2></center>
+
 
 *** =pnotes
 
@@ -153,7 +154,7 @@ There is no standard paradigm to measure the implicit mental simulation.
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:48 2015 -->
+<!-- Fri Apr 17 08:40:48 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Happy </th> <th> Disgust </th>  </tr>
   <tr> <td> Compatible </td> <td align="right"> 660.00 </td> <td align="right"> 707.00 </td> </tr>
@@ -195,7 +196,7 @@ De Houwer(2003), Experiment 1
    + Weight
 
 ---
-## Goals of Measurements
+## Critical Measurements
 >- Matching effect 
    + Which constituents in the situation could be explicit to our imagination?
 >- Compatibility effect
@@ -225,11 +226,11 @@ De Houwer(2003), Experiment 1
 ![KEY01](assets/img/KEY01.jpg)
 
 ---
-## Word Color Discrimination: Twist-Tide Pick-Loose
+## Word Color Discrimination: Twist-tight Pick-Loose
 ![Design02](assets/img/Figures_Design02A.jpg)
 
 ---
-## Word Color Discrimination: Twist-Loose Pick-Tide
+## Word Color Discrimination: Twist-Loose Pick-tight
 ![Design02](assets/img/Figures_Design02B.jpg)
 
 ---
@@ -253,7 +254,7 @@ De Houwer(2003), Experiment 1
    + Twist: *Close* had a positive effect; *Open* had a negative effect.
    + Pick: *Cube* and *Sponge* had positive effects.
 >- Compatibility Effects
-   + Blue Critical Words: **Twist-Tide** had a positive effect,
+   + Blue Critical Words: **Twist-tight** had a positive effect,
    + Greeb Crutucak Wirds: All sets tend to be negative.
    + Filler Words: No effects.
 
@@ -272,7 +273,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 17:26:41 2015 -->
+<!-- Fri Apr 17 08:40:48 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 95736.35 </td> <td align="right"> 95736.35 </td> <td align="right"> 2.41 </td> <td align="right"> 0.1290 </td> </tr>
@@ -301,7 +302,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:50 2015 -->
+<!-- Fri Apr 17 08:40:49 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1024.30 </td> <td align="right"> 1024.30 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7765 </td> </tr>
@@ -321,9 +322,9 @@ De Houwer(2003), Experiment 1
 
 ## Word Color Discrimination: Critical Blue Words
 
-*Twist-Tide*
+*Twist-Tight*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:50 2015 -->
+<!-- Fri Apr 17 08:40:49 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 259684.77 </td> <td align="right"> 13667.62 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -338,7 +339,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Pick-Hard*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:50 2015 -->
+<!-- Fri Apr 17 08:40:49 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 216265.99 </td> <td align="right"> 11382.42 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -366,7 +367,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Green Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:50 2015 -->
+<!-- Fri Apr 17 08:40:49 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.34 </td> <td align="right"> 685.34 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8106 </td> </tr>
@@ -388,7 +389,7 @@ De Houwer(2003), Experiment 1
 
 *Pick-Soft*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:51 2015 -->
+<!-- Fri Apr 17 08:40:49 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 238706.63 </td> <td align="right"> 12563.51 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -403,7 +404,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Twist-Loose*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 09 16:49:51 2015 -->
+<!-- Fri Apr 17 08:40:49 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 208346.24 </td> <td align="right"> 10965.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -430,10 +431,10 @@ De Houwer(2003), Experiment 1
 ---
 ## Summary
 >- Sentence-picture Verification
-  + Action exhausted strength: Positive for **tide**; Negative for **loose**
+  + Action exhausted strength: Positive for **tight**; Negative for **loose**
   + Action exhausted nothing: Positive Matching Effects
 >- Word Color Discrimination
-  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **tide**
+  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **tight**
   + Critical words connected to the action exhausted nothing: Null compatibility effects but tend to negative
   + Filler words: Repetition failed to cause compatibility effects
 
