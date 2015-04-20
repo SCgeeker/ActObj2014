@@ -21,6 +21,10 @@ knit        : slidify::knit2slides
 
 [See source files](https://github.com/SCgeeker/ActObj)
 
+--- .dark .segue
+
+## Why study mental simulation?
+
 --- &twocol
 ## Why?
 **Colorless green ideas sleep furiously.**
@@ -29,7 +33,7 @@ knit        : slidify::knit2slides
 <img src="assets/img/why01.png" width="225" height="225">
 
 *** =right
-<img src="assets/img/why02.jpg" width="225" height="225">
+<img src="assets/img/why02.png" width="225" height="225">
 
 *** =pnotes
 Standard Cognitive Computation vs. Conceptualized Embodiment
@@ -57,45 +61,29 @@ Standard Cognitive Computation vs. Conceptualized Embodiment
   + Compatibility effect (Simon effect)
 
 ---
-
-## Sentence-picture verification: Example01
->- I want to eat the **egg** in the *refrigerator*.
-
->- Naming the picture next slide.
-
----
-## Sentence-picture verification: Example01
-
-![ex02](assets/img/example02.png)  
-
-*** =pnotes
-Bite your tongue?
-
----
-## Sentence-picture verification: Example02
+## Sentence-picture verification: Example
 >- I want to eat the **egg** in the *dish*.
 
 >- Match the **picture** and **bold word** in next slide.
 
 ---
-## Sentence-picture verification: Example02
+## Sentence-picture verification: Example
 
 ![ex01](assets/img/example01.png)   
 
-Is it match?
+>- <center>Hardly choose **YES**?</center>  
+
+Is it match?  
 
 1. YES
 2. NO
 
-*** =pnotes
-
-Hardly choose **YES**?
 
 ---
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:15 2015 -->
+<!-- Mon Apr 20 12:15:19 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -104,7 +92,7 @@ Hardly choose **YES**?
   
 Zwaan, Stanfield, & Yaxley (2002)   
 >- Embodied Simulation Hypothesis: "Perceptual symbols are activated after reading sentence"   
->- Supoort the idea of **Perceptual Symbol System**(Barsalou, 1999)
+>- Supoort **Perceptual Symbol System**(Barsalou, 1999)
 
 ---
 ## Matching Effects
@@ -124,51 +112,40 @@ Zwaan, Stanfield, & Yaxley (2002)
 --- &vcenter .large
 </br>
 </br>
-<center><h2>Could we investigate the implicit processing of mental simulation?</h2></center>
-
-
-*** =pnotes
-
-There is no standard paradigm to measure the implicit mental simulation.
+<center><h3>Could we investigate the implicit processing of mental simulation?</h3></center>
+</br>
+>- <center>There is no standard paradigm to measure the implicit mental simulation.</center>
 
 ---
-## Implicit Associative Learning
->- *Implicit Associative Task* (Greenwald, McGhee, & Schwartz, 1998)
->- *Affective Priming Task* (Fazio, Jackson, Dunton, & Williams, 1995)
->- Emotion Simulation Hypothesis
-  + Emotion categorization task (Niedenthal et al., 2009; Baumeister et al., 2015)
->- *Extrinsic Affective Simon Task* (EAST; De Houwer, 2003)
-
----
-## Original EAST Design
+## Extrinsic Affective Simon Task (EAST; De Houwer, 2003)
 >- Word meaning classification -> Establish meaning-response compatibility
    + Key 1 = *Happy*   Key 2 = *Disgust*
 >- Word color discrimination -> Measure compatibity effect
-   + Key 1 = Color1    Key 2 = Color2
+   + Key 1 = <font color="blue">Color1</font>    Key 2 = <font color="green">Color2</font>
    + Word 1 = *Happy*  Word 2 = *Disgust*
 >- Compatible Case
-   + Key 1 ~ *Happy*   Key 2 ~ *Disgust*
+   + Key 1 ~ <font color="blue">*Happy*</font>   Key 2 ~ <font color="green">*Disgust*</font>
 >- Incompatible Case
-   + Key 1 ~ *Disgust*   Key 2 ~ *Happy*
+   + Key 1 ~ <font color="blue">*Disgust*</font>   Key 2 ~ <font color="green">*Happy*</font>
 
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:15 2015 -->
+<!-- Mon Apr 20 12:15:19 2015 -->
 <table border=1>
-<tr> <th>  </th> <th> Happy </th> <th> Disgust </th>  </tr>
-  <tr> <td> Compatible </td> <td align="right"> 660.00 </td> <td align="right"> 707.00 </td> </tr>
-  <tr> <td> Incompatible </td> <td align="right"> 636.00 </td> <td align="right"> 678.00 </td> </tr>
+<tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
+  <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
+  <tr> <td> Incompatible Response </td> <td align="right"> 707.00 </td> <td align="right"> 678.00 </td> </tr>
    </table>
 De Houwer(2003), Experiment 1
 
 ---
 ## Modified EAST Design
 >- Word meaning classification 
-   + Sentence-picture Verification
+   + ＞＞ Sentence-picture Verification
    + Build **situation** in imagination
 >- Word color discrimination 
-   + Associative words
+   + Critical words associated _actions_ and _feelings_
    + Actions and feelings matched the **situation**
 >- Two measurements
    + Matching effect: Sentence-picture Verification
@@ -176,11 +153,11 @@ De Houwer(2003), Experiment 1
 
 ---
 ## Hypothesis
-- Hypothesis of Embodied Simulation
+- Embodied Simulation Hypothesis 
   - People comprehend the linguistic forms of objects as the way people **see** the objects in the real world (Bergen, 2012).
   - **see** -> **move**? **observe**?
 
->- I will **hold** this iron box.
+>- I will **take** this iron box.
 >- I will **touch** this iron box.
 
 ---
@@ -204,10 +181,14 @@ De Houwer(2003), Experiment 1
 
 ---
 ## Predictions
->- In the sentence-picture verification task, human mind would simulate the **action** on the target **object** and the **feeling**.
+>- Sentence-picture verification task: human mind would simulate the **action** on the target **object** and the **feeling**.
   + Matching effect would happen to the pitcure that does not match the probe sentence.
->- In the word color discrimination task, human mind would process the implicit association of the **action** and the **feeling**.
+>- Word color discrimination task: human mind would process the implicit association of the **action** and the **feeling**.
   + Compatibility effect would happen to the word represented **action** or **feeling** but the color instructed the incompatible response key.
+
+--- .dark .segue
+
+## Experiment and findings
 
 ---
 ## Procedure
@@ -226,12 +207,12 @@ De Houwer(2003), Experiment 1
 ![KEY01](assets/img/KEY01.jpg)
 
 ---
-## Word Color Discrimination: Twist-tight Pick-Loose
+## Word Color Discrimination: Twist-Tight Pick-Loose
 ![Design02](assets/img/Figures_Design02A.jpg)
 
 ---
-## Word Color Discrimination: Twist-Loose Pick-tight
-![Design02](assets/img/Figures_Design02B.jpg)
+## Word Color Discrimination: Twist-Loose Pick-Tight
+![Design03](assets/img/Figures_Design02B.jpg)
 
 ---
 ## Word Color Discrimination: Response keys
@@ -241,22 +222,13 @@ De Houwer(2003), Experiment 1
 ## Analysis protocal
 >- Sentence-picture verification
    + Response key sets _X_ Matching
-   + All trials in warm up blocks 1~5
+   + All trials in **warm up blocks**
 >- Word-color discrimination
    + Three sets of target words: Blue critical, Green critical, Filler
    + Critical words: Word types _X_ Association types _X_ Compatibility
-   + Filler words: Word types _X_ (Test) Blocks _X_ Compatibility
+   + Filler words: Word types _X_ Test Blocks _X_ Compatibility
 
 
----
-## Results
->- Matching Effects
-   + Twist: *Close* had a positive effect; *Open* had a negative effect.
-   + Pick: *Cube* and *Sponge* had positive effects.
->- Compatibility Effects
-   + Blue Critical Words: **Twist-tight** had a positive effect,
-   + Greeb Crutucak Wirds: All sets tend to be negative.
-   + Filler Words: No effects.
 
 
 --- &twocol
@@ -273,7 +245,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:16 2015 -->
+<!-- Mon Apr 20 12:15:24 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 95736.35 </td> <td align="right"> 95736.35 </td> <td align="right"> 2.41 </td> <td align="right"> 0.1290 </td> </tr>
@@ -302,7 +274,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:16 2015 -->
+<!-- Mon Apr 20 12:15:26 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1024.30 </td> <td align="right"> 1024.30 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7765 </td> </tr>
@@ -324,7 +296,7 @@ De Houwer(2003), Experiment 1
 
 *Twist-Tight*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:16 2015 -->
+<!-- Mon Apr 20 12:15:26 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 259684.77 </td> <td align="right"> 13667.62 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -339,7 +311,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Pick-Hard*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:16 2015 -->
+<!-- Mon Apr 20 12:15:26 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 216265.99 </td> <td align="right"> 11382.42 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -367,7 +339,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Green Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:17 2015 -->
+<!-- Mon Apr 20 12:15:27 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.34 </td> <td align="right"> 685.34 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8106 </td> </tr>
@@ -389,7 +361,7 @@ De Houwer(2003), Experiment 1
 
 *Pick-Soft*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:17 2015 -->
+<!-- Mon Apr 20 12:15:27 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 238706.63 </td> <td align="right"> 12563.51 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -404,7 +376,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Twist-Loose*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Fri Apr 17 08:48:17 2015 -->
+<!-- Mon Apr 20 12:15:28 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 208346.24 </td> <td align="right"> 10965.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -431,10 +403,10 @@ De Houwer(2003), Experiment 1
 ---
 ## Summary
 >- Sentence-picture Verification
-  + Action exhausted strength: Positive for **tight**; Negative for **loose**
+  + Action exhausted strength: Positive for **Tight**; Negative for **Loose**
   + Action exhausted nothing: Positive Matching Effects
 >- Word Color Discrimination
-  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **tight**
+  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **Close - Tight**
   + Critical words connected to the action exhausted nothing: Null compatibility effects but tend to negative
   + Filler words: Repetition failed to cause compatibility effects
 
@@ -451,7 +423,7 @@ De Houwer(2003), Experiment 1
 
 </br>
 
-<center><h1>A Practice of Reproducible Research</h1></center>
+<center><h1>A Practical Reproducible Research</h1></center>
 
 
 ---
@@ -462,7 +434,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Workflow of Psychological Research
 **Replication**
-<center><h3>Propose Question -> <font color="red">Design -> Collect Data -> Analyze Data -> Report</font></h3></center>
+<center><h3>Suggest Hypothesis -> <font color="red">Design -> Collect Data -> Analyze Data -> Report</font></h3></center>
 
 >- Participants
 >- Instruments
@@ -472,10 +444,10 @@ De Houwer(2003), Experiment 1
 ---
 ## Workflow of Psychological Research
 **Reproduction**
-<center><h3>Suggest Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report</b></font></center>
+<center><h3>Suggest Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report -> Post Review</b></font></center>
 
 >- Analytical Codes
-  + Cleaned data (Readable format, codebook)
+  + Cleaned data (Readable format, Codebook)
   + Programming codes (R, SAS, SPSS, Matlab, ...)
 
 ---
@@ -486,7 +458,7 @@ De Houwer(2003), Experiment 1
 >- Sharing codes is the universal standard of reproducibility.
 
 ---
-## ## Make a Research Case Reproducible
+## Make a Research Case Reproducible
 
 - Share analytical codes 
 - Share stimulus
@@ -506,6 +478,7 @@ SP_RT1 <- barplot2(
     ci.u = (SP_RT_M[,c(1,4)] + SP_RTse_M[,c(1,4)]),
     panel.first = TRUE )
 ```
+
 ---
 ## A Reproducibile Psychological Research
 

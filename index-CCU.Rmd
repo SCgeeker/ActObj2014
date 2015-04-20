@@ -146,7 +146,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Modified EAST Design
 >- Word meaning classification 
-   + --> Sentence-picture Verification
+   + ＞＞ Sentence-picture Verification
    + Build **situation** in imagination
 >- Word color discrimination 
    + Critical words associated _actions_ and _feelings_
@@ -226,12 +226,12 @@ De Houwer(2003), Experiment 1
 ## Analysis protocal
 >- Sentence-picture verification
    + Response key sets _X_ Matching
-   + All trials in warm up blocks 1~5
+   + All trials in **warm up blocks**
 >- Word-color discrimination
    + Three sets of target words: Blue critical, Green critical, Filler
    + Critical words: Word types _X_ Association types _X_ Compatibility
-   + Filler words: Word types _X_ (Test) Blocks _X_ Compatibility
-```{r echo = FALSE, warning=FALSE, message=FALSE, label="SP-Dataset"}
+   + Filler words: Word types _X_ Test Blocks _X_ Compatibility
+```{r SP-Dataset, echo = FALSE, warning=FALSE, message=FALSE}
 #library(multcomp)
 
 # Tidy data of sentence-picture verification
@@ -258,16 +258,7 @@ F2a <- c(
 )
 ```
 
----
-## Results
->- Matching Effects
-   + Twist: *Close* had a positive effect; *Open* had a negative effect.
-   + Pick: *Cube* and *Sponge* had positive effects.
->- Compatibility Effects
-   + Blue Critical Words: **Twist-tight** had a positive effect,
-   + Greeb Crutucak Wirds: All sets tend to be negative.
-   + Filler Words: No effects.
-```{r echo=FALSE, results='hide', message=FALSE, label="WordColor-Dataset"}
+```{r WordColor-Dataset, echo=FALSE, results='hide', message=FALSE}
 SP_RT_M <- matrix(
   AB_RT,2,4,
   dimnames = list(c("C", "I"), c("Close Jar", "Pick Sponge", "Pick Cube", "Open Jar"))
@@ -785,10 +776,10 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 ---
 ## Summary
 >- Sentence-picture Verification
-  + Action exhausted strength: Positive for **tight**; Negative for **loose**
+  + Action exhausted strength: Positive for **Tight**; Negative for **Loose**
   + Action exhausted nothing: Positive Matching Effects
 >- Word Color Discrimination
-  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **tight**
+  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **Close - Tight**
   + Critical words connected to the action exhausted nothing: Null compatibility effects but tend to negative
   + Filler words: Repetition failed to cause compatibility effects
 
@@ -859,6 +850,7 @@ SP_RT1 <- barplot2(
     ci.u = (SP_RT_M[,c(1,4)] + SP_RTse_M[,c(1,4)]),
     panel.first = TRUE )
 ```
+
 ---
 ## A Reproducibile Psychological Research
 
