@@ -38,10 +38,10 @@ opts_chunk$set(echo = FALSE, cache = FALSE, cache.path = "../cache/")
 **Colorless green ideas sleep furiously.**
 
 *** =left
-<img src="assets/img/why01.png" width="225" height="225">
+<img src="assets/img/Why01.png" width="225" height="225">
 
 *** =right
-<img src="assets/img/why02.png" width="225" height="225">
+<img src="assets/img/Why02.png" width="225" height="225">
 
 *** =pnotes
 Standard Cognitive Computation vs. Conceptualized Embodiment
@@ -77,7 +77,7 @@ Standard Cognitive Computation vs. Conceptualized Embodiment
 ---
 ## Sentence-picture verification: Example
 
-![ex01](assets/img/example01.png)   
+![ex01](assets/img/Example01.png)   
 
 >- <center>Hardly choose **YES**?</center>  
 
