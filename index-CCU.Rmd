@@ -864,5 +864,5 @@ SP_RT1 <- barplot2(
   + ( Focus on the hypothesis )
 >- Teaching and Training
   + Enhance critical thinking
-  + Merge concepts and skills
+  + Embodied concepts in practice
 >- .....
