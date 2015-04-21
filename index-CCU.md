@@ -1,7 +1,7 @@
 ---
 title       : Embodied Simulation Effects
 subtitle    : A practice of Reproducible Research
-author      : 陳紹慶  胡中凡(共同主持人)
+author      : 陳紹慶    胡中凡(共同主持人)
 job         : 慈濟大學人類發展學系   成功大學心理學系
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -83,7 +83,7 @@ Is it match?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:41 2015 -->
+<!-- Tue Apr 21 18:56:48 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -131,7 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:41 2015 -->
+<!-- Tue Apr 21 18:56:48 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
   <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
@@ -245,7 +245,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:43 2015 -->
+<!-- Tue Apr 21 18:56:51 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 95736.35 </td> <td align="right"> 95736.35 </td> <td align="right"> 2.41 </td> <td align="right"> 0.1290 </td> </tr>
@@ -274,7 +274,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:45 2015 -->
+<!-- Tue Apr 21 18:56:52 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1024.30 </td> <td align="right"> 1024.30 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7765 </td> </tr>
@@ -296,7 +296,7 @@ De Houwer(2003), Experiment 1
 
 *Twist-Tight*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:45 2015 -->
+<!-- Tue Apr 21 18:56:53 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 259684.77 </td> <td align="right"> 13667.62 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -311,7 +311,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Pick-Hard*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:45 2015 -->
+<!-- Tue Apr 21 18:56:53 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 216265.99 </td> <td align="right"> 11382.42 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -339,7 +339,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Green Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:46 2015 -->
+<!-- Tue Apr 21 18:56:54 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.34 </td> <td align="right"> 685.34 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8106 </td> </tr>
@@ -361,7 +361,7 @@ De Houwer(2003), Experiment 1
 
 *Pick-Soft*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:47 2015 -->
+<!-- Tue Apr 21 18:56:55 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 238706.63 </td> <td align="right"> 12563.51 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -376,7 +376,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Twist-Loose*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:52:47 2015 -->
+<!-- Tue Apr 21 18:56:55 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 208346.24 </td> <td align="right"> 10965.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -415,7 +415,11 @@ De Houwer(2003), Experiment 1
 - Two aspects of embodied simulation effect
  1. Explicit: Human minds process the surface of imagination/mental simulation.
  2. Implicit: Human minds process the ingrideints under imagination/mental simulation.
-
+</br>
+</br>
+</br>
+</br>
+<center><h3>Welcome your critical comments.</h3></center>
 
 --- &vcenter
 
@@ -424,6 +428,13 @@ De Houwer(2003), Experiment 1
 </br>
 
 <center><h1>A Practical Reproducible Research</h1></center>
+
+---
+## Replication versus Reproduction
+
+>- Academic society hardly define the standards for replication.
+
+>- Sharing codes is the universal standard for reproduction.
 
 
 ---
@@ -451,18 +462,11 @@ De Houwer(2003), Experiment 1
   + Programming codes (R, SAS, SPSS, Matlab, ...)
 
 ---
-## Replication versus Reproduction
+## You are watching a reproducible research case
 
->- Academic society hardly define the standards of replication.
-
->- Sharing codes is the universal standard of reproducibility.
-
----
-## Make a Research Case Reproducible
-
-- Share analytical codes 
-- Share stimulus
-- Share raw and analytical data <- will be available when published
+- Share raw and cleaned data <- unavailable at this time
+- Share stimulus <- review the previous slides
+- Share analytical codes <- [Check my github](https://github.com/SCgeeker/ActObj)
 
 ```r
 #Tidy data of sentence-picture verification
@@ -480,17 +484,22 @@ SP_RT1 <- barplot2(
 ```
 
 ---
-## A Reproducibile Psychological Research
+## Preview our repository
+[Anonymous preview](https://osf.io/gqf8k/?view_only=9a77fe9b5c4542ceb09bf759105fae03)</br>
+<img src="assets/img/OSF-HOME.png">
+
+---
+## Reproducibile Psychological Research will be nice for
 
 >- Transparency
   + Easy access
   + Smooth workflow
 >- Quality and Integrity
   + Peer evaluation
-  + Post-publish review
+  + Post-published review
   + Making composition and analysis at a pipeline
   + ( Focus on the hypothesis )
 >- Teaching and Training
   + Enhance critical thinking
-  + Embodied concepts in practice
->- .....
+  + Merge concepts and skills
+>- ...

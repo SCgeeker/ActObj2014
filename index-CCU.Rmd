@@ -1,7 +1,7 @@
 ---
 title       : Embodied Simulation Effects
 subtitle    : A practice of Reproducible Research
-author      : 陳紹慶  胡中凡(共同主持人)
+author      : 陳紹慶    胡中凡(共同主持人)
 job         : 慈濟大學人類發展學系   成功大學心理學系
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -788,7 +788,11 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 - Two aspects of embodied simulation effect
  1. Explicit: Human minds process the surface of imagination/mental simulation.
  2. Implicit: Human minds process the ingrideints under imagination/mental simulation.
-
+</br>
+</br>
+</br>
+</br>
+<center><h3>Welcome your critical comments.</h3></center>
 
 --- &vcenter
 
@@ -797,6 +801,13 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 </br>
 
 <center><h1>A Practical Reproducible Research</h1></center>
+
+---
+## Replication versus Reproduction
+
+>- Academic society hardly define the standards for replication.
+
+>- Sharing codes is the universal standard for reproduction.
 
 
 ---
@@ -824,18 +835,11 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
   + Programming codes (R, SAS, SPSS, Matlab, ...)
 
 ---
-## Replication versus Reproduction
+## You are watching a reproducible research case
 
->- Academic society hardly define the standards of replication.
-
->- Sharing codes is the universal standard of reproducibility.
-
----
-## Make a Research Case Reproducible
-
-- Share analytical codes 
-- Share stimulus
-- Share raw and analytical data <- will be available when published
+- Share raw and cleaned data <- unavailable at this time
+- Share stimulus <- review the previous slides
+- Share analytical codes <- [Check my github](https://github.com/SCgeeker/ActObj)
 ```{r echo = TRUE, results = "none", eval=FALSE, warning=FALSE, message=FALSE}
 #Tidy data of sentence-picture verification
 AB_DATA <- read.table("../AB.csv",head=T,sep=",")
@@ -852,17 +856,22 @@ SP_RT1 <- barplot2(
 ```
 
 ---
-## A Reproducibile Psychological Research
+## Preview our repository
+[Anonymous preview](https://osf.io/gqf8k/?view_only=9a77fe9b5c4542ceb09bf759105fae03)</br>
+<img src="assets/img/OSF-HOME.png">
+
+---
+## Reproducibile Psychological Research will be nice for
 
 >- Transparency
   + Easy access
   + Smooth workflow
 >- Quality and Integrity
   + Peer evaluation
-  + Post-publish review
+  + Post-published review
   + Making composition and analysis at a pipeline
   + ( Focus on the hypothesis )
 >- Teaching and Training
   + Enhance critical thinking
-  + Embodied concepts in practice
->- .....
+  + Merge concepts and skills
+>- ...
