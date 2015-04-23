@@ -1,8 +1,8 @@
 ---
 title       : Embodied Simulation Effects
 subtitle    : A practice of Reproducible Research
-author      : 陳紹慶    胡中凡(共同主持人)
-job         : 慈濟大學人類發展學系   成功大學心理學系
+author      : 陳紹慶 胡中凡(共同主持人)
+job         : 慈濟大學人類發展學系 成功大學心理學系
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -17,16 +17,16 @@ knit        : slidify::knit2slides
 2. How to measure mental simulation
 3. Experiment and findings
 4. Reproducibility
-
-
-[See source files](https://github.com/SCgeeker/ActObj)
+</br>
+</br>
+[Check source files](https://github.com/SCgeeker/ActObj)
 
 --- .dark .segue
 
 ## Why study mental simulation?
 
 --- &twocol
-## Why?
+## Language Comprehension: Two Perspectives
 **Colorless green ideas sleep furiously.**
 
 *** =left
@@ -36,10 +36,10 @@ knit        : slidify::knit2slides
 <img src="assets/img/Why02.png" width="225" height="225">
 
 *** =pnotes
-Standard Cognitive Computation vs. Conceptualized Embodiment
+Standard Cognitive Computation vs. Conceptualized Embodiment</br>
 
 --- &twocol
-## How many perspectives?
+## Embodied Cognition: How many perspectives?
  |Shapiro(2010) |Rowlands(2010)  
 --- | ------------- | --------------  
  |<font color="red">Conceptulization</font>|Embodied mind  
@@ -83,7 +83,7 @@ Is it match?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:48 2015 -->
+<!-- Thu Apr 23 15:57:18 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -91,8 +91,8 @@ Is it match?
    </table>
   
 Zwaan, Stanfield, & Yaxley (2002)   
+>- Supoort **Perceptual Symbol System**(Barsalou, 1999)  
 >- Embodied Simulation Hypothesis: "Perceptual symbols are activated after reading sentence"   
->- Supoort **Perceptual Symbol System**(Barsalou, 1999)
 
 ---
 ## Matching Effects
@@ -131,7 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:48 2015 -->
+<!-- Thu Apr 23 15:57:18 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
   <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
@@ -142,7 +142,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Modified EAST Design
 >- Word meaning classification 
-   + ＞＞ Sentence-picture Verification
+   + ＞＞＞ Sentence-picture Verification
    + Build **situation** in imagination
 >- Word color discrimination 
    + Critical words associated _actions_ and _feelings_
@@ -245,7 +245,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:51 2015 -->
+<!-- Thu Apr 23 15:57:20 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 95736.35 </td> <td align="right"> 95736.35 </td> <td align="right"> 2.41 </td> <td align="right"> 0.1290 </td> </tr>
@@ -274,7 +274,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:52 2015 -->
+<!-- Thu Apr 23 15:57:21 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1024.30 </td> <td align="right"> 1024.30 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7765 </td> </tr>
@@ -296,7 +296,7 @@ De Houwer(2003), Experiment 1
 
 *Twist-Tight*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:53 2015 -->
+<!-- Thu Apr 23 15:57:21 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 259684.77 </td> <td align="right"> 13667.62 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -311,7 +311,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Pick-Hard*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:53 2015 -->
+<!-- Thu Apr 23 15:57:22 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 216265.99 </td> <td align="right"> 11382.42 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -339,7 +339,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Green Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:54 2015 -->
+<!-- Thu Apr 23 15:57:23 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.34 </td> <td align="right"> 685.34 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8106 </td> </tr>
@@ -361,7 +361,7 @@ De Houwer(2003), Experiment 1
 
 *Pick-Soft*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:55 2015 -->
+<!-- Thu Apr 23 15:57:23 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 238706.63 </td> <td align="right"> 12563.51 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -376,7 +376,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Twist-Loose*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Tue Apr 21 18:56:55 2015 -->
+<!-- Thu Apr 23 15:57:24 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 208346.24 </td> <td align="right"> 10965.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>

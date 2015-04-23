@@ -1,8 +1,8 @@
 ---
 title       : Embodied Simulation Effects
 subtitle    : A practice of Reproducible Research
-author      : 陳紹慶    胡中凡(共同主持人)
-job         : 慈濟大學人類發展學系   成功大學心理學系
+author      : 陳紹慶 胡中凡(共同主持人)
+job         : 慈濟大學人類發展學系 成功大學心理學系
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -25,16 +25,16 @@ opts_chunk$set(echo = FALSE, cache = FALSE, cache.path = "../cache/")
 2. How to measure mental simulation
 3. Experiment and findings
 4. Reproducibility
-
-
-[See source files](https://github.com/SCgeeker/ActObj)
+</br>
+</br>
+[Check source files](https://github.com/SCgeeker/ActObj)
 
 --- .dark .segue
 
 ## Why study mental simulation?
 
 --- &twocol
-## Why?
+## Language Comprehension: Two Perspectives
 **Colorless green ideas sleep furiously.**
 
 *** =left
@@ -44,10 +44,10 @@ opts_chunk$set(echo = FALSE, cache = FALSE, cache.path = "../cache/")
 <img src="assets/img/Why02.png" width="225" height="225">
 
 *** =pnotes
-Standard Cognitive Computation vs. Conceptualized Embodiment
+Standard Cognitive Computation vs. Conceptualized Embodiment</br>
 
 --- &twocol
-## How many perspectives?
+## Embodied Cognition: How many perspectives?
  |Shapiro(2010) |Rowlands(2010)  
 --- | ------------- | --------------  
  |<font color="red">Conceptulization</font>|Embodied mind  
@@ -97,8 +97,8 @@ print(ZSY2002.table, type = "html",floating=FALSE)
 ```
   
 Zwaan, Stanfield, & Yaxley (2002)   
+>- Supoort **Perceptual Symbol System**(Barsalou, 1999)  
 >- Embodied Simulation Hypothesis: "Perceptual symbols are activated after reading sentence"   
->- Supoort **Perceptual Symbol System**(Barsalou, 1999)
 
 ---
 ## Matching Effects
@@ -146,7 +146,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Modified EAST Design
 >- Word meaning classification 
-   + ＞＞ Sentence-picture Verification
+   + ＞＞＞ Sentence-picture Verification
    + Build **situation** in imagination
 >- Word color discrimination 
    + Critical words associated _actions_ and _feelings_
