@@ -3,7 +3,7 @@ title       : Embodied Simulation Effects
 subtitle    : A practice of Reproducible Research
 author      : 陳紹慶 胡中凡(共同主持人)
 job         : 慈濟大學人類發展學系 成功大學心理學系
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+framework   : io2012
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
@@ -211,11 +211,11 @@ De Houwer(2003), Experiment 1
 ![KEY01](assets/img/KEY01.jpg)
 
 ---
-## Word Color Discrimination: Twist-Tight Pick-Loose
+## Word Color Discrimination: Twist-Tight Pick-Soft
 ![Design02](assets/img/Figures_Design02A.jpg)
 
 ---
-## Word Color Discrimination: Twist-Loose Pick-Tight
+## Word Color Discrimination: Twist-Loose Pick-Hard
 ![Design03](assets/img/Figures_Design02B.jpg)
 
 ---

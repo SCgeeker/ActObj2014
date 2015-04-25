@@ -3,7 +3,7 @@ title       : Embodied Simulation Effects
 subtitle    : A practice of Reproducible Research
 author      : 陳紹慶 胡中凡(共同主持人)
 job         : 慈濟大學人類發展學系 成功大學心理學系
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+framework   : io2012
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
@@ -83,7 +83,7 @@ Is it match?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:18 2015 -->
+<!-- Sat Apr 25 09:19:11 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -131,7 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:18 2015 -->
+<!-- Sat Apr 25 09:19:11 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
   <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
@@ -207,11 +207,11 @@ De Houwer(2003), Experiment 1
 ![KEY01](assets/img/KEY01.jpg)
 
 ---
-## Word Color Discrimination: Twist-Tight Pick-Loose
+## Word Color Discrimination: Twist-Tight Pick-Soft
 ![Design02](assets/img/Figures_Design02A.jpg)
 
 ---
-## Word Color Discrimination: Twist-Loose Pick-Tight
+## Word Color Discrimination: Twist-Loose Pick-Hard
 ![Design03](assets/img/Figures_Design02B.jpg)
 
 ---
@@ -245,7 +245,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:20 2015 -->
+<!-- Sat Apr 25 09:19:13 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 95736.35 </td> <td align="right"> 95736.35 </td> <td align="right"> 2.41 </td> <td align="right"> 0.1290 </td> </tr>
@@ -274,7 +274,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:21 2015 -->
+<!-- Sat Apr 25 09:19:15 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1024.30 </td> <td align="right"> 1024.30 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7765 </td> </tr>
@@ -296,7 +296,7 @@ De Houwer(2003), Experiment 1
 
 *Twist-Tight*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:21 2015 -->
+<!-- Sat Apr 25 09:19:15 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 259684.77 </td> <td align="right"> 13667.62 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -311,7 +311,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Pick-Hard*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:22 2015 -->
+<!-- Sat Apr 25 09:19:15 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 216265.99 </td> <td align="right"> 11382.42 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -339,7 +339,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Green Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:23 2015 -->
+<!-- Sat Apr 25 09:19:16 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.34 </td> <td align="right"> 685.34 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8106 </td> </tr>
@@ -361,7 +361,7 @@ De Houwer(2003), Experiment 1
 
 *Pick-Soft*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:23 2015 -->
+<!-- Sat Apr 25 09:19:16 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 238706.63 </td> <td align="right"> 12563.51 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -376,7 +376,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Twist-Loose*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Thu Apr 23 15:57:24 2015 -->
+<!-- Sat Apr 25 09:19:17 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 208346.24 </td> <td align="right"> 10965.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>
