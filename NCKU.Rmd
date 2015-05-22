@@ -1,6 +1,6 @@
 ---
 title       : Embodied Simulation Effects
-subtitle    : A practice of Reproducible Research
+subtitle    : NCKU Replication
 author      : 陳紹慶 胡中凡(共同主持人)
 job         : 慈濟大學人類發展學系 成功大學心理學系
 framework   : io2012
@@ -278,7 +278,7 @@ CRITIC = subset(T_DATA,(F4 == 'V' | F4=='A' | F4=='O'))
 # Response sets of filler words
 attach(FILL)
 FILL_RT <- tapply(RT, paste0(F1, F4, F2, F3), mean)
-#FILL_RTsd <- tapply(RT, paste0(F1, F4, F2, F3), sd)
+FILL_RTsd <- tapply(RT, paste0(F1, F4, F2, F3), sd)
 FILL_RTsd <- apply(
     rbind(
     matrix(
@@ -296,7 +296,7 @@ detach(FILL)
 # Response sets of critical words
 attach(CRITIC)
 CRITIC_RT <- tapply(RT, paste0(F1, F4, F2, F3), mean)
-#CRITIC_RTsd <- tapply(RT, paste0(F1, F4, F2, F3), sd)
+CRITIC_RTsd <- tapply(RT, paste0(F1, F4, F2, F3), sd)
 CRITIC_RTsd <- apply(
     rbind(
         matrix(
@@ -372,7 +372,7 @@ sapply(1:dim(SP_RT1)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(SP_RT1)
 y.text<-apply((SP_RT_M[,c(1,4)] + SP_RTse_M[,c(1,4)]),2,max)+10
-text(c("*","n.s."),x=x.text,y=y.text)
+text(c("*","*"),x=x.text,y=y.text)
 ```
 
 *** =right
@@ -432,7 +432,7 @@ CRITIC_RTse_BA <- matrix(
 
 Critical_A_Twist <- barplot2(
   CRITIC_RT_BA, beside=T,xpd=F,
-  ylim = c(400,500),ylab="Response Time(ms)",
+  ylim = c(350,500),ylab="Response Time(ms)",
   col = rep(c("blue","green"), 3),         
   plot.ci = TRUE,
   ci.l = (CRITIC_RT_BA - CRITIC_RTse_BA), 
@@ -453,7 +453,7 @@ sapply(1:dim(Critical_A_Twist)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Critical_A_Twist)
 y.text<-apply((CRITIC_RT_BA + CRITIC_RTse_BA),2,max)+10
-text(c("*","n.s.","n.s."),x=x.text,y=y.text)
+text(c("*","*","*"),x=x.text,y=y.text)
 
 ```
 
@@ -476,7 +476,7 @@ CRITIC_RTse_BB <- matrix(
 Critical_B_Pick <- barplot2(
     CRITIC_RT_BB, beside=T,xpd=F,
     legend = c("Compatible","Incompatible"),
-    ylim = c(400,500),ylab="Response Time(ms)",
+    ylim = c(350,500),ylab="Response Time(ms)",
     col = c( "blue", "green"),         
     plot.ci = TRUE, 
     ci.l = (CRITIC_RT_BB - CRITIC_RTse_BB), 
@@ -496,7 +496,7 @@ sapply(1:dim(Critical_B_Pick)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Critical_B_Pick)
 y.text<-apply((CRITIC_RT_BB + CRITIC_RTse_BB),2,max)+10
-text(c("n.s.","n.s.","n.s."),x=x.text,y=y.text)
+text(c("n.s.","n.s.","*"),x=x.text,y=y.text)
 
 ```
 
@@ -546,7 +546,7 @@ CRITIC_RTse_GA <- matrix(
 
 Critical_A_Pick <- barplot2(
     CRITIC_RT_GA, beside=T,xpd=F,
-    ylim = c(400,500),ylab="Response Time(ms)",
+    ylim = c(350,500),ylab="Response Time(ms)",
     col = rep(c("green", "blue"), 2),         
     plot.ci = TRUE, 
     ci.l = (CRITIC_RT_GA - CRITIC_RTse_GA), 
@@ -567,7 +567,7 @@ sapply(1:dim(Critical_A_Pick)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Critical_A_Pick)
 y.text<-apply((CRITIC_RT_GA + CRITIC_RTse_GA),2,max)+10
-text(c("n.s.","n.s.","n.s."),x=x.text,y=y.text)
+text(c("*","n.s.","n.s."),x=x.text,y=y.text)
 ```
 
 *** =right
@@ -586,7 +586,7 @@ CRITIC_RTse_GB <- matrix(
 Critical_B_Twist <- barplot2(
     CRITIC_RT_GB, beside=T,xpd=F,
     legend = c("Compatible","Incompatible"),
-    ylim = c(400,500),ylab="Response Time(ms)",
+    ylim = c(350,500),ylab="Response Time(ms)",
     col = c("green","blue"),         
     plot.ci = TRUE, 
     ci.l = (CRITIC_RT_GB - CRITIC_RTse_GB), 
@@ -658,7 +658,7 @@ FILL_RTse_BF <- matrix(
 
 Filler_Blue1 <- barplot2(
     FILL_RT_BF[,c(1,2)], beside=T,xpd=F,
-    ylim = c(400,500),ylab="Response Time(ms)",
+    ylim = c(350,500),ylab="Response Time(ms)",
     col = c("blue","green"),         
     plot.ci = TRUE, 
     ci.l = (FILL_RT_BF[,c(1,2)] - FILL_RTse_BF[,c(1,2)]), 
@@ -678,13 +678,13 @@ sapply(1:dim(Filler_Blue1)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Filler_Blue1)
 y.text<-apply((FILL_RT_BF[,c(1,2)] + FILL_RTse_BF[,c(1,2)]),2,max)+6
-text(c("n.s.","n.s."),x=x.text,y=y.text+3)
+text(c("*.","n.s."),x=x.text,y=y.text+3)
 
 
 Filler_Blue2 <- barplot2(
   FILL_RT_BF[,c(3,4)], beside=T,xpd=F,
   legend = c("Compatible","Incompatible"),
-  ylim = c(400,500),ylab="Response Time(ms)",
+  ylim = c(350,500),ylab="Response Time(ms)",
   col = c("blue","green"),         
   plot.ci = TRUE, 
   ci.l = (FILL_RT_BF[,c(3,4)] - FILL_RTse_BF[,c(3,4)]), 
@@ -723,7 +723,7 @@ FILL_RTse_GF <- matrix(
 )
 Filler_Green1 <- barplot2(
   FILL_RT_GF[,c(1,2)], beside=T,xpd=F,
-  ylim = c(400,500),ylab="Response Time(ms)",
+  ylim = c(350,500),ylab="Response Time(ms)",
   col = c("green","blue"),         
   plot.ci = TRUE, 
   ci.l = (FILL_RT_GF[,c(1,2)] - FILL_RTse_GF[,c(1,2)]), 
@@ -743,13 +743,13 @@ sapply(1:dim(Filler_Green1)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Filler_Green1)
 y.text<-apply((FILL_RT_GF[,c(1,2)] + FILL_RTse_GF[,c(1,2)]),2,max)+6
-text(c("n.s.","n.s."),x=x.text,y=y.text+3)
+text(c("*","*"),x=x.text,y=y.text+3)
 
 
 Filler_Green2 <- barplot2(
   FILL_RT_GF[,c(3,4)], beside=T,xpd=F,
   legend = c("Compatible","Incompatible"),
-  ylim = c(400,500),ylab="Response Time(ms)",
+  ylim = c(350,500),ylab="Response Time(ms)",
   col = c("green","blue"),
   plot.ci = TRUE, 
   ci.l = (FILL_RT_GF[,c(3,4)] - FILL_RTse_GF[,c(3,4)]), 
@@ -769,10 +769,27 @@ sapply(1:dim(Filler_Green2)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Filler_Green2)
 y.text<-apply((FILL_RT_GF[,c(3,4)] + FILL_RTse_GF[,c(3,4)]),2,max)+6
-text(c("n.s.","n.s."),x=x.text,y=y.text+3)
+text(c("*","n.s."),x=x.text,y=y.text+3)
+```
+
+---   
+
+## Word Color Discrimination: Fillers
+*Blue*
+```{r Blue-Filler-ANOVA, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+BF_RT.aov <-   aov(RT ~ F1*F4*F3 + Error( ID/(F4*F3) ), data = BLUE_FILL )
+print(xtable(summary( BF_RT.aov ) ), type="html", digits=2)
+```
+
+*** =pnotes
+*Green*
+```{r Green-Filler-ANOVA, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+GF_RT.aov <- aov(RT ~ F1*F4*F3 + Error( ID/(F4*F3) ), data = GREEN_FILL )
+print(xtable(summary( GF_RT.aov ) ), type="html", digits=2)
 ```
 
 ---
+
 ## Summary
 >- Sentence-picture Verification
   + Action exhausted strength: Positive for **Tight**; Negative for **Loose**
@@ -781,8 +798,9 @@ text(c("n.s.","n.s."),x=x.text,y=y.text+3)
   + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **Close - Tight**
   + Critical words connected to the action exhausted nothing: Null compatibility effects but tend to negative
   + Filler words: Repetition failed to cause compatibility effects
-
+  
 ---
+
 ## Implications
 - Two aspects of embodied simulation effect
  1. Explicit: Human minds process the surface of imagination/mental simulation.

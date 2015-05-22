@@ -442,11 +442,11 @@ CRITIC_RTse_BA <- matrix(
 
 Critical_A_Twist <- barplot2(
   CRITIC_RT_BA, beside=T,xpd=F,
-  ylim = c(400,500),ylab="Response Time(ms)",
+  ylim = c(350,450),ylab="Response Time(ms)",
   col = rep(c("blue","green"), 3),         
-  plot.ci = TRUE,
-  ci.l = (CRITIC_RT_BA - CRITIC_RTse_BA), 
-  ci.u = (CRITIC_RT_BA + CRITIC_RTse_BA),
+  #plot.ci = TRUE,
+  #ci.l = (CRITIC_RT_BA - CRITIC_RTse_BA), 
+  #ci.u = (CRITIC_RT_BA + CRITIC_RTse_BA),
   panel.first = TRUE
 )
 
@@ -486,11 +486,11 @@ CRITIC_RTse_BB <- matrix(
 Critical_B_Pick <- barplot2(
     CRITIC_RT_BB, beside=T,xpd=F,
     legend = c("Compatible","Incompatible"),
-    ylim = c(400,500),ylab="Response Time(ms)",
+    ylim = c(350,450),ylab="Response Time(ms)",
     col = c( "blue", "green"),         
-    plot.ci = TRUE, 
-    ci.l = (CRITIC_RT_BB - CRITIC_RTse_BB), 
-    ci.u = (CRITIC_RT_BB + CRITIC_RTse_BB),
+    #plot.ci = TRUE, 
+    #ci.l = (CRITIC_RT_BB - CRITIC_RTse_BB), 
+    #ci.u = (CRITIC_RT_BB + CRITIC_RTse_BB),
     panel.first = TRUE
 )
 y.cord<-rbind(c((CRITIC_RT_BB + CRITIC_RTse_BB)[1,]+2),
@@ -556,11 +556,11 @@ CRITIC_RTse_GA <- matrix(
 
 Critical_A_Pick <- barplot2(
     CRITIC_RT_GA, beside=T,xpd=F,
-    ylim = c(400,500),ylab="Response Time(ms)",
+    ylim = c(350,450),ylab="Response Time(ms)",
     col = rep(c("green", "blue"), 2),         
-    plot.ci = TRUE, 
-    ci.l = (CRITIC_RT_GA - CRITIC_RTse_GA), 
-    ci.u = (CRITIC_RT_GA + CRITIC_RTse_GA),
+    #plot.ci = TRUE, 
+    #ci.l = (CRITIC_RT_GA - CRITIC_RTse_GA), 
+    #ci.u = (CRITIC_RT_GA + CRITIC_RTse_GA),
     panel.first = TRUE
 )
 
@@ -596,11 +596,11 @@ CRITIC_RTse_GB <- matrix(
 Critical_B_Twist <- barplot2(
     CRITIC_RT_GB, beside=T,xpd=F,
     legend = c("Compatible","Incompatible"),
-    ylim = c(400,500),ylab="Response Time(ms)",
+    ylim = c(350,450),ylab="Response Time(ms)",
     col = c("green","blue"),         
-    plot.ci = TRUE, 
-    ci.l = (CRITIC_RT_GB - CRITIC_RTse_GB), 
-    ci.u = (CRITIC_RT_GB + CRITIC_RTse_GB),
+    #plot.ci = TRUE, 
+    #ci.l = (CRITIC_RT_GB - CRITIC_RTse_GB), 
+    #ci.u = (CRITIC_RT_GB + CRITIC_RTse_GB),
     panel.first = TRUE
 )
 

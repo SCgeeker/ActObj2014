@@ -1,9 +1,9 @@
 ---
 title       : Embodied Simulation Effects
 subtitle    : A practice of Reproducible Research
-author      : 陳紹慶 胡中凡(共同主持人)
-job         : 慈濟大學人類發展學系 成功大學心理學系
-framework   : io2012
+author      : 陳紹慶  胡中凡(共同主持人)
+job         : 慈濟大學人類發展學系   成功大學心理學系
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
@@ -17,29 +17,29 @@ knit        : slidify::knit2slides
 2. How to measure mental simulation
 3. Experiment and findings
 4. Reproducibility
-</br>
-</br>
-[Check source files](https://github.com/SCgeeker/ActObj)
+
+
+[See source files](https://github.com/SCgeeker/ActObj)
 
 --- .dark .segue
 
 ## Why study mental simulation?
 
 --- &twocol
-## Language Comprehension: Two Perspectives
+## Why?
 **Colorless green ideas sleep furiously.**
 
 *** =left
-<img src="assets/img/Why01.png" width="225" height="225">
+<img src="assets/img/why01.png" width="225" height="225">
 
 *** =right
-<img src="assets/img/Why02.png" width="225" height="225">
+<img src="assets/img/why02.png" width="225" height="225">
 
 *** =pnotes
-Standard Cognitive Computation vs. Conceptualized Embodiment</br>
+Standard Cognitive Computation vs. Conceptualized Embodiment
 
 --- &twocol
-## Embodied Cognition: How many perspectives?
+## How many perspectives?
  |Shapiro(2010) |Rowlands(2010)  
 --- | ------------- | --------------  
  |<font color="red">Conceptulization</font>|Embodied mind  
@@ -69,7 +69,7 @@ Standard Cognitive Computation vs. Conceptualized Embodiment</br>
 ---
 ## Sentence-picture verification: Example
 
-![ex01](assets/img/Example01.png)   
+![ex01](assets/img/example01.png)   
 
 >- <center>Hardly choose **YES**?</center>  
 
@@ -83,7 +83,7 @@ Is it match?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 18 12:16:26 2015 -->
+<!-- Mon May 18 12:09:44 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -91,8 +91,8 @@ Is it match?
    </table>
   
 Zwaan, Stanfield, & Yaxley (2002)   
->- Supoort **Perceptual Symbol System**(Barsalou, 1999)  
 >- Embodied Simulation Hypothesis: "Perceptual symbols are activated after reading sentence"   
+>- Supoort **Perceptual Symbol System**(Barsalou, 1999)
 
 ---
 ## Matching Effects
@@ -131,7 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 18 12:16:26 2015 -->
+<!-- Mon May 18 12:09:44 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
   <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
@@ -142,7 +142,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Modified EAST Design
 >- Word meaning classification 
-   + ＞＞＞ Sentence-picture Verification
+   + --> Sentence-picture Verification
    + Build **situation** in imagination
 >- Word color discrimination 
    + Critical words associated _actions_ and _feelings_
@@ -207,11 +207,11 @@ De Houwer(2003), Experiment 1
 ![KEY01](assets/img/KEY01.jpg)
 
 ---
-## Word Color Discrimination: Twist-Tight Pick-Soft
+## Word Color Discrimination: Twist-Tight Pick-Loose
 ![Design02](assets/img/Figures_Design02A.jpg)
 
 ---
-## Word Color Discrimination: Twist-Loose Pick-Hard
+## Word Color Discrimination: Twist-Loose Pick-Tight
 ![Design03](assets/img/Figures_Design02B.jpg)
 
 ---
@@ -222,13 +222,22 @@ De Houwer(2003), Experiment 1
 ## Analysis protocal
 >- Sentence-picture verification
    + Response key sets _X_ Matching
-   + All trials in **warm up blocks**
+   + All trials in warm up blocks 1~5
 >- Word-color discrimination
    + Three sets of target words: Blue critical, Green critical, Filler
    + Critical words: Word types _X_ Association types _X_ Compatibility
-   + Filler words: Word types _X_ Test Blocks _X_ Compatibility
+   + Filler words: Word types _X_ (Test) Blocks _X_ Compatibility
 
 
+---
+## Results
+>- Matching Effects
+   + Twist: *Close* had a positive effect; *Open* had a negative effect.
+   + Pick: *Cube* and *Sponge* had positive effects.
+>- Compatibility Effects
+   + Blue Critical Words: **Twist-tight** had a positive effect,
+   + Greeb Crutucak Wirds: All sets tend to be negative.
+   + Filler Words: No effects.
 
 ```
 ## Error in matrix(matrix(RT, 2)[2, ] - matrix(RT, 2)[1, ], 4)[, 1:20]: subscript out of bounds
@@ -252,7 +261,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 18 12:16:27 2015 -->
+<!-- Mon May 18 12:09:45 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 9231.10 </td> <td align="right"> 9231.10 </td> <td align="right"> 0.79 </td> <td align="right"> 0.3896 </td> </tr>
