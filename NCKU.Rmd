@@ -10,14 +10,13 @@ widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
-```{r setup, include=FALSE, cache=FALSE}
-suppressPackageStartupMessages({
+```{r setup, include=FALSE, cache=FALSE, results='hide'}
 library(knitr)
 library(stringr)
 library(gplots)
 library(xtable)
-})
-opts_chunk$set(echo = FALSE, cache = FALSE, cache.path = "../cache/", fig.path = 'assets/NCKU/')
+
+opts_chunk$set(echo = FALSE, cache = FALSE, cache.path = '../cache/', fig.path = 'assets/NCKU/')
 ```
 
 ## Outline
@@ -235,7 +234,7 @@ De Houwer(2003), Experiment 1
 #library(multcomp)
 
 # Tidy data of sentence-picture verification
-AB_DATA <- read.table("../AB.csv",head=T,sep=",")
+AB_DATA <- read.csv("../AB.csv")
 attach(AB_DATA)
 AB_RT <- tapply(RT, paste0(F1, F2, F3), mean)
 AB_RTsd <- apply(
@@ -271,7 +270,7 @@ SP_RTse_M <- matrix(
 
 ```{r WordColor-Dataset, echo=FALSE, results='hide', message=FALSE}
 # Tidy data of color discrimination
-T_DATA <- read.table("../TEST.csv",head=T,sep=",")
+T_DATA <- read.csv('../TEST.csv')
 
 FILL = subset(T_DATA,(F4 == 'B' | F4=='W'))
 CRITIC = subset(T_DATA,(F4 == 'V' | F4=='A' | F4=='O'))

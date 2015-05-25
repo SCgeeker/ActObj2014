@@ -83,7 +83,7 @@ Is it match?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:44 2015 -->
+<!-- Mon May 25 11:55:14 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -131,7 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:44 2015 -->
+<!-- Mon May 25 11:55:15 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
   <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
@@ -258,7 +258,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:49 2015 -->
+<!-- Mon May 25 11:55:17 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.75 </td> <td align="right"> 685.75 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8053 </td> </tr>
@@ -287,7 +287,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:52 2015 -->
+<!-- Mon May 25 11:55:18 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 5756.55 </td> <td align="right"> 5756.55 </td> <td align="right"> 0.44 </td> <td align="right"> 0.5113 </td> </tr>
@@ -309,7 +309,7 @@ De Houwer(2003), Experiment 1
 
 *Twist-Tight*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:52 2015 -->
+<!-- Mon May 25 11:55:19 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 18 </td> <td align="right"> 137901.21 </td> <td align="right"> 7661.18 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -324,7 +324,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Pick-Hard*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:53 2015 -->
+<!-- Mon May 25 11:55:19 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 346280.38 </td> <td align="right"> 18225.28 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -352,7 +352,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Green Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:55 2015 -->
+<!-- Mon May 25 11:55:21 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1512.82 </td> <td align="right"> 1512.82 </td> <td align="right"> 0.12 </td> <td align="right"> 0.7304 </td> </tr>
@@ -374,7 +374,7 @@ De Houwer(2003), Experiment 1
 
 *Pick-Soft*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:55 2015 -->
+<!-- Mon May 25 11:55:21 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 18 </td> <td align="right"> 190095.70 </td> <td align="right"> 10560.87 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -389,7 +389,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Twist-Loose*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:55 2015 -->
+<!-- Mon May 25 11:55:22 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 274368.96 </td> <td align="right"> 14440.47 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -418,7 +418,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Fillers
 *Blue*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:22:59 2015 -->
+<!-- Mon May 25 11:55:24 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> F1        </td> <td align="right"> 1 </td> <td align="right"> 253.57 </td> <td align="right"> 253.57 </td> <td align="right"> 0.04 </td> <td align="right"> 0.8493 </td> </tr>
@@ -437,7 +437,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Green*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:23:00 2015 -->
+<!-- Mon May 25 11:55:24 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> F1        </td> <td align="right"> 1 </td> <td align="right"> 778.87 </td> <td align="right"> 778.87 </td> <td align="right"> 0.10 </td> <td align="right"> 0.7508 </td> </tr>
