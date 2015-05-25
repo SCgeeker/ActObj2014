@@ -17,7 +17,7 @@ library(stringr)
 library(gplots)
 library(xtable)
 })
-opts_chunk$set(echo = FALSE, cache = FALSE, cache.path = "../cache/")
+opts_chunk$set(echo = FALSE, cache = FALSE, cache.path = "../cache/", fig.path = 'assets/NCKU/')
 ```
 
 ## Outline

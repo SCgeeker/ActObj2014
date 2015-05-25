@@ -83,7 +83,7 @@ Is it match?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 18 12:16:26 2015 -->
+<!-- Mon May 25 11:23:39 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -131,7 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 18 12:16:26 2015 -->
+<!-- Mon May 25 11:23:39 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
   <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
@@ -230,13 +230,6 @@ De Houwer(2003), Experiment 1
 
 
 
-```
-## Error in matrix(matrix(RT, 2)[2, ] - matrix(RT, 2)[1, ], 4)[, 1:20]: subscript out of bounds
-```
-
-```
-## Error in matrix(matrix(RT, 2)[2, ] - matrix(RT, 2)[1, ], 6)[, 1:20]: subscript out of bounds
-```
 
 --- &twocol
 ## Sentence-Picture Verification: Summary
@@ -252,17 +245,17 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 18 12:16:27 2015 -->
+<!-- Mon May 25 11:23:42 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
-  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 9231.10 </td> <td align="right"> 9231.10 </td> <td align="right"> 0.79 </td> <td align="right"> 0.3896 </td> </tr>
-  <tr> <td> Residuals </td> <td align="right"> 14 </td> <td align="right"> 163899.55 </td> <td align="right"> 11707.11 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Matching        </td> <td align="right"> 1 </td> <td align="right"> 9843.50 </td> <td align="right"> 9843.50 </td> <td align="right"> 10.99 </td> <td align="right"> 0.0051 </td> </tr>
-  <tr> <td> Series:Matching </td> <td align="right"> 1 </td> <td align="right"> 1903.73 </td> <td align="right"> 1903.73 </td> <td align="right"> 2.13 </td> <td align="right"> 0.1669 </td> </tr>
-  <tr> <td> Residuals       </td> <td align="right"> 14 </td> <td align="right"> 12537.52 </td> <td align="right"> 895.54 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Situation          </td> <td align="right"> 2 </td> <td align="right"> 9333.16 </td> <td align="right"> 4666.58 </td> <td align="right"> 3.29 </td> <td align="right"> 0.0520 </td> </tr>
-  <tr> <td> Situation:Matching </td> <td align="right"> 2 </td> <td align="right"> 3554.30 </td> <td align="right"> 1777.15 </td> <td align="right"> 1.25 </td> <td align="right"> 0.3011 </td> </tr>
-  <tr> <td> Residuals          </td> <td align="right"> 28 </td> <td align="right"> 39700.11 </td> <td align="right"> 1417.86 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 95736.35 </td> <td align="right"> 95736.35 </td> <td align="right"> 2.41 </td> <td align="right"> 0.1290 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 1510458.39 </td> <td align="right"> 39748.91 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Matching        </td> <td align="right"> 1 </td> <td align="right"> 10475.54 </td> <td align="right"> 10475.54 </td> <td align="right"> 14.68 </td> <td align="right"> 0.0005 </td> </tr>
+  <tr> <td> Series:Matching </td> <td align="right"> 1 </td> <td align="right"> 6464.75 </td> <td align="right"> 6464.75 </td> <td align="right"> 9.06 </td> <td align="right"> 0.0046 </td> </tr>
+  <tr> <td> Residuals       </td> <td align="right"> 38 </td> <td align="right"> 27112.52 </td> <td align="right"> 713.49 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Situation          </td> <td align="right"> 2 </td> <td align="right"> 42157.54 </td> <td align="right"> 21078.77 </td> <td align="right"> 9.92 </td> <td align="right"> 0.0001 </td> </tr>
+  <tr> <td> Situation:Matching </td> <td align="right"> 2 </td> <td align="right"> 5375.40 </td> <td align="right"> 2687.70 </td> <td align="right"> 1.26 </td> <td align="right"> 0.2882 </td> </tr>
+  <tr> <td> Residuals          </td> <td align="right"> 76 </td> <td align="right"> 161522.57 </td> <td align="right"> 2125.30 </td> <td align="right">  </td> <td align="right">  </td> </tr>
    </table>
 
 --- &twocol
@@ -270,29 +263,243 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 ***=left
+![plot of chunk Blue-Critical1](assets/fig/Blue-Critical1-1.png) 
+
+*** =right
+
+![plot of chunk Blue-Critical2](assets/fig/Blue-Critical2-1.png) 
+
+---
+
+## Word Color Discrimination: Critical Blue Words
+
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+<!-- Mon May 25 11:23:44 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
+  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1024.30 </td> <td align="right"> 1024.30 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7765 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 475950.76 </td> <td align="right"> 12525.02 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks        </td> <td align="right"> 2 </td> <td align="right"> 142.89 </td> <td align="right"> 71.45 </td> <td align="right"> 0.12 </td> <td align="right"> 0.8898 </td> </tr>
+  <tr> <td> Series:Blocks </td> <td align="right"> 2 </td> <td align="right"> 870.87 </td> <td align="right"> 435.44 </td> <td align="right"> 0.71 </td> <td align="right"> 0.4937 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 76 </td> <td align="right"> 46449.99 </td> <td align="right"> 611.18 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility        </td> <td align="right"> 1 </td> <td align="right"> 3090.63 </td> <td align="right"> 3090.63 </td> <td align="right"> 5.26 </td> <td align="right"> 0.0274 </td> </tr>
+  <tr> <td> Series:Compatibility </td> <td align="right"> 1 </td> <td align="right"> 2652.66 </td> <td align="right"> 2652.66 </td> <td align="right"> 4.52 </td> <td align="right"> 0.0401 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 22317.72 </td> <td align="right"> 587.31 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility        </td> <td align="right"> 2 </td> <td align="right"> 422.98 </td> <td align="right"> 211.49 </td> <td align="right"> 0.42 </td> <td align="right"> 0.6594 </td> </tr>
+  <tr> <td> Series:Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1705.32 </td> <td align="right"> 852.66 </td> <td align="right"> 1.69 </td> <td align="right"> 0.1917 </td> </tr>
+  <tr> <td> Residuals                   </td> <td align="right"> 76 </td> <td align="right"> 38384.34 </td> <td align="right"> 505.06 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+   </table>
+
+---
+
+## Word Color Discrimination: Critical Blue Words
+
+*Twist-Tight*
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+<!-- Mon May 25 11:23:45 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
+  <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 259684.77 </td> <td align="right"> 13667.62 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks    </td> <td align="right"> 2 </td> <td align="right"> 436.86 </td> <td align="right"> 218.43 </td> <td align="right"> 0.55 </td> <td align="right"> 0.5788 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 14963.12 </td> <td align="right"> 393.77 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility </td> <td align="right"> 1 </td> <td align="right"> 5734.93 </td> <td align="right"> 5734.93 </td> <td align="right"> 7.34 </td> <td align="right"> 0.0139 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 19 </td> <td align="right"> 14851.81 </td> <td align="right"> 781.67 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 311.75 </td> <td align="right"> 155.88 </td> <td align="right"> 0.39 </td> <td align="right"> 0.6804 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 15227.24 </td> <td align="right"> 400.72 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+   </table>
+
+*** =pnotes
+*Pick-Hard*
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+<!-- Mon May 25 11:23:45 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
+  <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 216265.99 </td> <td align="right"> 11382.42 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks    </td> <td align="right"> 2 </td> <td align="right"> 576.90 </td> <td align="right"> 288.45 </td> <td align="right"> 0.35 </td> <td align="right"> 0.7082 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 31486.87 </td> <td align="right"> 828.60 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility </td> <td align="right"> 1 </td> <td align="right"> 8.36 </td> <td align="right"> 8.36 </td> <td align="right"> 0.02 </td> <td align="right"> 0.8856 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 19 </td> <td align="right"> 7465.91 </td> <td align="right"> 392.94 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1816.55 </td> <td align="right"> 908.27 </td> <td align="right"> 1.49 </td> <td align="right"> 0.2381 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 23157.10 </td> <td align="right"> 609.40 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+   </table>
+
+--- &twocol
+
+## Word Color Discrimination: Critical Green Words
+
+*** =left
+![plot of chunk Green-Critical1](assets/fig/Green-Critical1-1.png) 
+
+*** =right
+
+![plot of chunk Green-Critical2](assets/fig/Green-Critical2-1.png) 
+
+---
+
+## Word Color Discrimination: Critical Green Words
+
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+<!-- Mon May 25 11:23:46 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
+  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.34 </td> <td align="right"> 685.34 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8106 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 447052.88 </td> <td align="right"> 11764.55 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks        </td> <td align="right"> 2 </td> <td align="right"> 536.44 </td> <td align="right"> 268.22 </td> <td align="right"> 0.33 </td> <td align="right"> 0.7174 </td> </tr>
+  <tr> <td> Series:Blocks </td> <td align="right"> 2 </td> <td align="right"> 138.77 </td> <td align="right"> 69.39 </td> <td align="right"> 0.09 </td> <td align="right"> 0.9174 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 76 </td> <td align="right"> 61104.07 </td> <td align="right"> 804.00 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility        </td> <td align="right"> 1 </td> <td align="right"> 2744.42 </td> <td align="right"> 2744.42 </td> <td align="right"> 4.49 </td> <td align="right"> 0.0408 </td> </tr>
+  <tr> <td> Series:Compatibility </td> <td align="right"> 1 </td> <td align="right"> 59.55 </td> <td align="right"> 59.55 </td> <td align="right"> 0.10 </td> <td align="right"> 0.7567 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 23247.56 </td> <td align="right"> 611.78 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility        </td> <td align="right"> 2 </td> <td align="right"> 13.40 </td> <td align="right"> 6.70 </td> <td align="right"> 0.01 </td> <td align="right"> 0.9885 </td> </tr>
+  <tr> <td> Series:Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1459.45 </td> <td align="right"> 729.73 </td> <td align="right"> 1.26 </td> <td align="right"> 0.2888 </td> </tr>
+  <tr> <td> Residuals                   </td> <td align="right"> 76 </td> <td align="right"> 43931.35 </td> <td align="right"> 578.04 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+   </table>
+
+---
+
+## Word Color Discrimination: Critical Green Words
+
+*Pick-Soft*
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+<!-- Mon May 25 11:23:47 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
+  <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 238706.63 </td> <td align="right"> 12563.51 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks    </td> <td align="right"> 2 </td> <td align="right"> 285.42 </td> <td align="right"> 142.71 </td> <td align="right"> 0.17 </td> <td align="right"> 0.8407 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 31106.81 </td> <td align="right"> 818.60 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility </td> <td align="right"> 1 </td> <td align="right"> 1806.26 </td> <td align="right"> 1806.26 </td> <td align="right"> 2.37 </td> <td align="right"> 0.1405 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 19 </td> <td align="right"> 14508.25 </td> <td align="right"> 763.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 868.34 </td> <td align="right"> 434.17 </td> <td align="right"> 1.01 </td> <td align="right"> 0.3745 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 16366.25 </td> <td align="right"> 430.69 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+   </table>
+
+*** =pnotes
+*Twist-Loose*
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+<!-- Mon May 25 11:23:47 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
+  <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 208346.24 </td> <td align="right"> 10965.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks    </td> <td align="right"> 2 </td> <td align="right"> 389.80 </td> <td align="right"> 194.90 </td> <td align="right"> 0.25 </td> <td align="right"> 0.7825 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 29997.26 </td> <td align="right"> 789.40 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility </td> <td align="right"> 1 </td> <td align="right"> 997.71 </td> <td align="right"> 997.71 </td> <td align="right"> 2.17 </td> <td align="right"> 0.1572 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 19 </td> <td align="right"> 8739.31 </td> <td align="right"> 459.96 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 604.51 </td> <td align="right"> 302.26 </td> <td align="right"> 0.42 </td> <td align="right"> 0.6622 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 27565.09 </td> <td align="right"> 725.40 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+   </table>
+
+--- &twocol
+
+## Word Color Discrimination: Fillers
+
+*** =left
+*Blue*
+![plot of chunk Blue-Filler](assets/fig/Blue-Filler-1.png) 
+
+*** =right
+*Green*
+![plot of chunk Green-Filler](assets/fig/Green-Filler-1.png) 
+
+---
+## Summary
+>- Sentence-picture Verification
+  + Action exhausted strength: Positive for **Tight**; Negative for **Loose**
+  + Action exhausted nothing: Positive Matching Effects
+>- Word Color Discrimination
+  + Critical words connected to the action exhausted strenght: Positive compatibility effect but limited to **Close - Tight**
+  + Critical words connected to the action exhausted nothing: Null compatibility effects but tend to negative
+  + Filler words: Repetition failed to cause compatibility effects
+
+---
+## Implications
+- Two aspects of embodied simulation effect
+ 1. Explicit: Human minds process the surface of imagination/mental simulation.
+ 2. Implicit: Human minds process the ingrideints under imagination/mental simulation.
+</br>
+</br>
+</br>
+</br>
+<center><h3>Welcome your critical comments.</h3></center>
+
+--- &vcenter
+
+</br>
+
+</br>
+
+<center><h1>A Practical Reproducible Research</h1></center>
+
+---
+## Replication versus Reproduction
+
+>- Academic society hardly define the standards for replication.
+
+>- Sharing codes is the universal standard for reproduction.
 
 
+---
+## Workflow of Psychological Research
+</br>
+<center><h3>Suggest Hypothesis -> Design -> Collect Data -> Analyze Data -> Report</h3></center>
 
+---
+## Workflow of Psychological Research
+**Replication**
+<center><h3>Suggest Hypothesis -> <font color="red">Design -> Collect Data -> Analyze Data -> Report</font></h3></center>
 
+>- Participants
+>- Instruments
+>- Experimental Codes
+>- Analytical Codes
 
+---
+## Workflow of Psychological Research
+**Reproduction**
+<center><h3>Suggest Hypothesis -> Design -> Collect Data -> <font color="red">Analyze Data -> Report -> Post Review</b></font></center>
 
+>- Analytical Codes
+  + Cleaned data (Readable format, Codebook)
+  + Programming codes (R, SAS, SPSS, Matlab, ...)
 
+---
+## You are watching a reproducible research case
 
+- Share raw and cleaned data <- unavailable at this time
+- Share stimulus <- review the previous slides
+- Share analytical codes <- [Check my github](https://github.com/SCgeeker/ActObj)
 
+```r
+#Tidy data of sentence-picture verification
+AB_DATA <- read.table("../AB.csv",head=T,sep=",")
+#Tidy data of word color discrimination
+T_DATA <- read.table("../TEST.csv",head=T,sep=",")
+# statistical figure
+SP_RT1 <- barplot2(
+   SP_RT_M[,c(1,4)], beside=T,xpd=F,
+    ylim = c(350,550),ylab="Response Time(ms)",
+    col = c(rep(c("black","white"),2)), plot.ci = TRUE, 
+    ci.l = (SP_RT_M[,c(1,4)] - SP_RTse_M[,c(1,4)]), 
+    ci.u = (SP_RT_M[,c(1,4)] + SP_RTse_M[,c(1,4)]),
+    panel.first = TRUE )
+```
 
+---
+## Preview our repository
+[Anonymous preview](https://osf.io/gqf8k/?view_only=9a77fe9b5c4542ceb09bf759105fae03)</br>
+<img src="assets/img/OSF-HOME.png">
 
+---
+## Reproducibile Psychological Research will be nice for
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>- Transparency
+  + Easy access
+  + Smooth workflow
+>- Quality and Integrity
+  + Peer evaluation
+  + Post-published review
+  + Making composition and analysis at a pipeline
+  + ( Focus on the hypothesis )
+>- Teaching and Training
+  + Enhance critical thinking
+  + Merge concepts and skills
+>- ...
