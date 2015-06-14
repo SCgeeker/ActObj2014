@@ -409,8 +409,16 @@ text(c("n.s.","*"),x=x.text,y=y.text)
 ---
 ## Sentence-Picture Verification: ANOVA
 ```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis', label = "SP-Anova"}
-colnames(AB_DATA) <- c("ID","Series","Situation","Matching","RT","PE")
-SP.aov <- aov(RT ~Series*Situation*Matching + Error( ID/Matching ), data = AB_DATA )
+colnames(AB_DATA) <- c("ID","Group","Action","Matching","RT","PE")
+
+nA <- sum(AB_DATA$Group == 'A')/4
+nB <- sum(AB_DATA$Group == 'B')/4
+
+AB_DATA$Action <- as.factor(c(
+ rep(c('W', 'W', 'P', 'P'), nA),
+ rep(c('P', 'P', 'W', 'W'), nB)
+))
+SP.aov <- aov(RT ~Group*Action*Matching + Error( ID/Matching ), data = AB_DATA )
 print(xtable(summary( SP.aov ) ), type="html",floating=FALSE)
 ```
 

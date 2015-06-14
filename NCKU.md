@@ -83,7 +83,7 @@ Is it match?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:14 2015 -->
+<!-- Sun Jun 14 16:07:45 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -131,7 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:15 2015 -->
+<!-- Sun Jun 14 16:07:45 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
   <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
@@ -228,20 +228,22 @@ De Houwer(2003), Experiment 1
    + Critical words: Word types _X_ Association types _X_ Compatibility
    + Filler words: Word types _X_ Test Blocks _X_ Compatibility
 
-
-
 ```
-## Warning in matrix(matrix(RT, 2)[2, ] - matrix(RT, 2)[1, ], 4): data length
-## [159] is not a sub-multiple or multiple of the number of rows [4]
+## Error in tapply(RT, paste0(F1, F2, F3), mean): arguments must have same length
 ```
 
 ```
-## Warning in matrix(matrix(RT, 2)[2, ] - matrix(RT, 2)[1, ], 4): data length
-## [159] is not a sub-multiple or multiple of the number of rows [4]
+## Error in tapply(PE, paste0(F1, F2, F3), mean): arguments must have same length
 ```
 
 ```
-## Error in matrix(matrix(RT, 2)[2, ] - matrix(RT, 2)[1, ], 6)[, 21:40]: subscript out of bounds
+##   Close Jar Pick Sponge Pick Cube Open Jar
+## C    426.26      387.89    409.75   406.32
+## I    454.32      418.79    410.60   444.03
+```
+
+```
+## Error in matrix(rep(AB_RTsd, each = 2) * t(c(1/rep(sqrt(nA), 4), 1/rep(sqrt(nB), : dims [product 8] do not match the length of object [16]
 ```
 
 --- &twocol
@@ -258,17 +260,19 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:17 2015 -->
+<!-- Sun Jun 14 16:07:47 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
-  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.75 </td> <td align="right"> 685.75 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8053 </td> </tr>
+  <tr> <td> Group     </td> <td align="right"> 1 </td> <td align="right"> 685.75 </td> <td align="right"> 685.75 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8053 </td> </tr>
   <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 422844.02 </td> <td align="right"> 11127.47 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Matching        </td> <td align="right"> 1 </td> <td align="right"> 23780.86 </td> <td align="right"> 23780.86 </td> <td align="right"> 21.38 </td> <td align="right"> 0.0000 </td> </tr>
-  <tr> <td> Series:Matching </td> <td align="right"> 1 </td> <td align="right"> 1041.18 </td> <td align="right"> 1041.18 </td> <td align="right"> 0.94 </td> <td align="right"> 0.3394 </td> </tr>
-  <tr> <td> Residuals       </td> <td align="right"> 38 </td> <td align="right"> 42267.16 </td> <td align="right"> 1112.29 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Situation          </td> <td align="right"> 2 </td> <td align="right"> 31799.37 </td> <td align="right"> 15899.69 </td> <td align="right"> 14.10 </td> <td align="right"> 0.0000 </td> </tr>
-  <tr> <td> Situation:Matching </td> <td align="right"> 2 </td> <td align="right"> 6834.92 </td> <td align="right"> 3417.46 </td> <td align="right"> 3.03 </td> <td align="right"> 0.0542 </td> </tr>
-  <tr> <td> Residuals          </td> <td align="right"> 76 </td> <td align="right"> 85728.09 </td> <td align="right"> 1128.00 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Matching       </td> <td align="right"> 1 </td> <td align="right"> 23780.86 </td> <td align="right"> 23780.86 </td> <td align="right"> 21.38 </td> <td align="right"> 0.0000 </td> </tr>
+  <tr> <td> Group:Matching </td> <td align="right"> 1 </td> <td align="right"> 1041.18 </td> <td align="right"> 1041.18 </td> <td align="right"> 0.94 </td> <td align="right"> 0.3394 </td> </tr>
+  <tr> <td> Residuals      </td> <td align="right"> 38 </td> <td align="right"> 42267.16 </td> <td align="right"> 1112.29 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Action                </td> <td align="right"> 1 </td> <td align="right"> 26980.66 </td> <td align="right"> 26980.66 </td> <td align="right"> 23.92 </td> <td align="right"> 0.0000 </td> </tr>
+  <tr> <td> Group:Action          </td> <td align="right"> 1 </td> <td align="right"> 4818.71 </td> <td align="right"> 4818.71 </td> <td align="right"> 4.27 </td> <td align="right"> 0.0422 </td> </tr>
+  <tr> <td> Action:Matching       </td> <td align="right"> 1 </td> <td align="right"> 2893.70 </td> <td align="right"> 2893.70 </td> <td align="right"> 2.57 </td> <td align="right"> 0.1134 </td> </tr>
+  <tr> <td> Group:Action:Matching </td> <td align="right"> 1 </td> <td align="right"> 3941.22 </td> <td align="right"> 3941.22 </td> <td align="right"> 3.49 </td> <td align="right"> 0.0654 </td> </tr>
+  <tr> <td> Residuals             </td> <td align="right"> 76 </td> <td align="right"> 85728.09 </td> <td align="right"> 1128.00 </td> <td align="right">  </td> <td align="right">  </td> </tr>
    </table>
 
 --- &twocol
@@ -287,20 +291,20 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:18 2015 -->
+<!-- Sun Jun 14 16:07:51 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
-  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 5756.55 </td> <td align="right"> 5756.55 </td> <td align="right"> 0.44 </td> <td align="right"> 0.5113 </td> </tr>
-  <tr> <td> Residuals </td> <td align="right"> 37 </td> <td align="right"> 484181.59 </td> <td align="right"> 13085.99 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Blocks        </td> <td align="right"> 2 </td> <td align="right"> 1905.59 </td> <td align="right"> 952.79 </td> <td align="right"> 1.50 </td> <td align="right"> 0.2305 </td> </tr>
-  <tr> <td> Series:Blocks </td> <td align="right"> 2 </td> <td align="right"> 3057.20 </td> <td align="right"> 1528.60 </td> <td align="right"> 2.40 </td> <td align="right"> 0.0976 </td> </tr>
-  <tr> <td> Residuals     </td> <td align="right"> 74 </td> <td align="right"> 47092.35 </td> <td align="right"> 636.38 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Compatibility        </td> <td align="right"> 1 </td> <td align="right"> 19693.37 </td> <td align="right"> 19693.37 </td> <td align="right"> 20.55 </td> <td align="right"> 0.0001 </td> </tr>
-  <tr> <td> Series:Compatibility </td> <td align="right"> 1 </td> <td align="right"> 6413.00 </td> <td align="right"> 6413.00 </td> <td align="right"> 6.69 </td> <td align="right"> 0.0137 </td> </tr>
-  <tr> <td> Residuals            </td> <td align="right"> 37 </td> <td align="right"> 35452.42 </td> <td align="right"> 958.17 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Blocks:Compatibility        </td> <td align="right"> 2 </td> <td align="right"> 2981.27 </td> <td align="right"> 1490.64 </td> <td align="right"> 1.78 </td> <td align="right"> 0.1763 </td> </tr>
-  <tr> <td> Series:Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1622.09 </td> <td align="right"> 811.04 </td> <td align="right"> 0.97 </td> <td align="right"> 0.3851 </td> </tr>
-  <tr> <td> Residuals                   </td> <td align="right"> 74 </td> <td align="right"> 62081.78 </td> <td align="right"> 838.94 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 3142.13 </td> <td align="right"> 3142.13 </td> <td align="right"> 0.24 </td> <td align="right"> 0.6281 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 500636.31 </td> <td align="right"> 13174.64 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks        </td> <td align="right"> 2 </td> <td align="right"> 1719.47 </td> <td align="right"> 859.74 </td> <td align="right"> 1.37 </td> <td align="right"> 0.2613 </td> </tr>
+  <tr> <td> Series:Blocks </td> <td align="right"> 2 </td> <td align="right"> 2740.68 </td> <td align="right"> 1370.34 </td> <td align="right"> 2.18 </td> <td align="right"> 0.1204 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 76 </td> <td align="right"> 47830.48 </td> <td align="right"> 629.35 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility        </td> <td align="right"> 1 </td> <td align="right"> 20370.47 </td> <td align="right"> 20370.47 </td> <td align="right"> 21.78 </td> <td align="right"> 0.0000 </td> </tr>
+  <tr> <td> Series:Compatibility </td> <td align="right"> 1 </td> <td align="right"> 6344.47 </td> <td align="right"> 6344.47 </td> <td align="right"> 6.78 </td> <td align="right"> 0.0131 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 35535.19 </td> <td align="right"> 935.14 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility        </td> <td align="right"> 2 </td> <td align="right"> 2905.38 </td> <td align="right"> 1452.69 </td> <td align="right"> 1.78 </td> <td align="right"> 0.1762 </td> </tr>
+  <tr> <td> Series:Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1648.35 </td> <td align="right"> 824.18 </td> <td align="right"> 1.01 </td> <td align="right"> 0.3698 </td> </tr>
+  <tr> <td> Residuals                   </td> <td align="right"> 76 </td> <td align="right"> 62141.54 </td> <td align="right"> 817.65 </td> <td align="right">  </td> <td align="right">  </td> </tr>
    </table>
 
 ---
@@ -309,22 +313,22 @@ De Houwer(2003), Experiment 1
 
 *Twist-Tight*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:19 2015 -->
+<!-- Sun Jun 14 16:07:51 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
-  <tr> <td> Residuals </td> <td align="right"> 18 </td> <td align="right"> 137901.21 </td> <td align="right"> 7661.18 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Blocks    </td> <td align="right"> 2 </td> <td align="right"> 2982.93 </td> <td align="right"> 1491.46 </td> <td align="right"> 2.75 </td> <td align="right"> 0.0773 </td> </tr>
-  <tr> <td> Residuals1 </td> <td align="right"> 36 </td> <td align="right"> 19518.65 </td> <td align="right"> 542.18 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Compatibility </td> <td align="right"> 1 </td> <td align="right"> 24117.27 </td> <td align="right"> 24117.27 </td> <td align="right"> 21.01 </td> <td align="right"> 0.0002 </td> </tr>
-  <tr> <td> Residuals     </td> <td align="right"> 18 </td> <td align="right"> 20658.07 </td> <td align="right"> 1147.67 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1753.07 </td> <td align="right"> 876.53 </td> <td align="right"> 1.15 </td> <td align="right"> 0.3278 </td> </tr>
-  <tr> <td> Residuals            </td> <td align="right"> 36 </td> <td align="right"> 27422.30 </td> <td align="right"> 761.73 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 154355.93 </td> <td align="right"> 8124.00 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks    </td> <td align="right"> 2 </td> <td align="right"> 2480.29 </td> <td align="right"> 1240.15 </td> <td align="right"> 2.33 </td> <td align="right"> 0.1114 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 20256.78 </td> <td align="right"> 533.07 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility </td> <td align="right"> 1 </td> <td align="right"> 24725.84 </td> <td align="right"> 24725.84 </td> <td align="right"> 22.65 </td> <td align="right"> 0.0001 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 19 </td> <td align="right"> 20740.84 </td> <td align="right"> 1091.62 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1703.44 </td> <td align="right"> 851.72 </td> <td align="right"> 1.18 </td> <td align="right"> 0.3190 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 27482.06 </td> <td align="right"> 723.21 </td> <td align="right">  </td> <td align="right">  </td> </tr>
    </table>
 
 *** =pnotes
 *Pick-Hard*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:19 2015 -->
+<!-- Sun Jun 14 16:07:52 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 346280.38 </td> <td align="right"> 18225.28 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -352,20 +356,20 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Green Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:21 2015 -->
+<!-- Sun Jun 14 16:07:53 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
-  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1512.82 </td> <td align="right"> 1512.82 </td> <td align="right"> 0.12 </td> <td align="right"> 0.7304 </td> </tr>
-  <tr> <td> Residuals </td> <td align="right"> 37 </td> <td align="right"> 464464.66 </td> <td align="right"> 12553.10 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Blocks        </td> <td align="right"> 2 </td> <td align="right"> 1853.26 </td> <td align="right"> 926.63 </td> <td align="right"> 0.88 </td> <td align="right"> 0.4182 </td> </tr>
-  <tr> <td> Series:Blocks </td> <td align="right"> 2 </td> <td align="right"> 1312.21 </td> <td align="right"> 656.10 </td> <td align="right"> 0.62 </td> <td align="right"> 0.5382 </td> </tr>
-  <tr> <td> Residuals     </td> <td align="right"> 74 </td> <td align="right"> 77723.95 </td> <td align="right"> 1050.32 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Compatibility        </td> <td align="right"> 1 </td> <td align="right"> 7198.73 </td> <td align="right"> 7198.73 </td> <td align="right"> 6.32 </td> <td align="right"> 0.0164 </td> </tr>
-  <tr> <td> Series:Compatibility </td> <td align="right"> 1 </td> <td align="right"> 3040.16 </td> <td align="right"> 3040.16 </td> <td align="right"> 2.67 </td> <td align="right"> 0.1109 </td> </tr>
-  <tr> <td> Residuals            </td> <td align="right"> 37 </td> <td align="right"> 42163.43 </td> <td align="right"> 1139.55 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Blocks:Compatibility        </td> <td align="right"> 2 </td> <td align="right"> 373.11 </td> <td align="right"> 186.55 </td> <td align="right"> 0.28 </td> <td align="right"> 0.7542 </td> </tr>
-  <tr> <td> Series:Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1213.05 </td> <td align="right"> 606.53 </td> <td align="right"> 0.92 </td> <td align="right"> 0.4028 </td> </tr>
-  <tr> <td> Residuals                   </td> <td align="right"> 74 </td> <td align="right"> 48754.71 </td> <td align="right"> 658.85 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 363.65 </td> <td align="right"> 363.65 </td> <td align="right"> 0.03 </td> <td align="right"> 0.8662 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 480176.22 </td> <td align="right"> 12636.22 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks        </td> <td align="right"> 2 </td> <td align="right"> 1994.90 </td> <td align="right"> 997.45 </td> <td align="right"> 0.96 </td> <td align="right"> 0.3856 </td> </tr>
+  <tr> <td> Series:Blocks </td> <td align="right"> 2 </td> <td align="right"> 1099.13 </td> <td align="right"> 549.56 </td> <td align="right"> 0.53 </td> <td align="right"> 0.5898 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 76 </td> <td align="right"> 78563.44 </td> <td align="right"> 1033.73 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility        </td> <td align="right"> 1 </td> <td align="right"> 6538.51 </td> <td align="right"> 6538.51 </td> <td align="right"> 5.68 </td> <td align="right"> 0.0223 </td> </tr>
+  <tr> <td> Series:Compatibility </td> <td align="right"> 1 </td> <td align="right"> 2436.51 </td> <td align="right"> 2436.51 </td> <td align="right"> 2.12 </td> <td align="right"> 0.1540 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 43767.66 </td> <td align="right"> 1151.78 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility        </td> <td align="right"> 2 </td> <td align="right"> 262.33 </td> <td align="right"> 131.16 </td> <td align="right"> 0.20 </td> <td align="right"> 0.8171 </td> </tr>
+  <tr> <td> Series:Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 1367.88 </td> <td align="right"> 683.94 </td> <td align="right"> 1.06 </td> <td align="right"> 0.3530 </td> </tr>
+  <tr> <td> Residuals                   </td> <td align="right"> 76 </td> <td align="right"> 49233.38 </td> <td align="right"> 647.81 </td> <td align="right">  </td> <td align="right">  </td> </tr>
    </table>
 
 ---
@@ -374,22 +378,22 @@ De Houwer(2003), Experiment 1
 
 *Pick-Soft*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:21 2015 -->
+<!-- Sun Jun 14 16:07:53 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
-  <tr> <td> Residuals </td> <td align="right"> 18 </td> <td align="right"> 190095.70 </td> <td align="right"> 10560.87 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Blocks    </td> <td align="right"> 2 </td> <td align="right"> 2449.41 </td> <td align="right"> 1224.71 </td> <td align="right"> 1.18 </td> <td align="right"> 0.3187 </td> </tr>
-  <tr> <td> Residuals1 </td> <td align="right"> 36 </td> <td align="right"> 37339.64 </td> <td align="right"> 1037.21 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Compatibility </td> <td align="right"> 1 </td> <td align="right"> 9742.76 </td> <td align="right"> 9742.76 </td> <td align="right"> 10.38 </td> <td align="right"> 0.0047 </td> </tr>
-  <tr> <td> Residuals     </td> <td align="right"> 18 </td> <td align="right"> 16896.49 </td> <td align="right"> 938.69 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 712.77 </td> <td align="right"> 356.38 </td> <td align="right"> 0.77 </td> <td align="right"> 0.4725 </td> </tr>
-  <tr> <td> Residuals            </td> <td align="right"> 36 </td> <td align="right"> 16758.67 </td> <td align="right"> 465.52 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 205807.26 </td> <td align="right"> 10831.96 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks    </td> <td align="right"> 2 </td> <td align="right"> 2377.97 </td> <td align="right"> 1188.99 </td> <td align="right"> 1.18 </td> <td align="right"> 0.3173 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 38179.13 </td> <td align="right"> 1004.71 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Compatibility </td> <td align="right"> 1 </td> <td align="right"> 8478.89 </td> <td align="right"> 8478.89 </td> <td align="right"> 8.71 </td> <td align="right"> 0.0082 </td> </tr>
+  <tr> <td> Residuals     </td> <td align="right"> 19 </td> <td align="right"> 18500.72 </td> <td align="right"> 973.72 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> Blocks:Compatibility </td> <td align="right"> 2 </td> <td align="right"> 756.81 </td> <td align="right"> 378.41 </td> <td align="right"> 0.83 </td> <td align="right"> 0.4420 </td> </tr>
+  <tr> <td> Residuals            </td> <td align="right"> 38 </td> <td align="right"> 17237.34 </td> <td align="right"> 453.61 </td> <td align="right">  </td> <td align="right">  </td> </tr>
    </table>
 
 *** =pnotes
 *Twist-Loose*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:22 2015 -->
+<!-- Sun Jun 14 16:07:53 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 274368.96 </td> <td align="right"> 14440.47 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -418,39 +422,39 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Fillers
 *Blue*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:24 2015 -->
+<!-- Sun Jun 14 16:07:55 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
-  <tr> <td> F1        </td> <td align="right"> 1 </td> <td align="right"> 253.57 </td> <td align="right"> 253.57 </td> <td align="right"> 0.04 </td> <td align="right"> 0.8493 </td> </tr>
-  <tr> <td> Residuals </td> <td align="right"> 37 </td> <td align="right"> 256260.75 </td> <td align="right"> 6925.97 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> F4        </td> <td align="right"> 1 </td> <td align="right"> 2559.13 </td> <td align="right"> 2559.13 </td> <td align="right"> 1.99 </td> <td align="right"> 0.1663 </td> </tr>
-  <tr> <td> F1:F4     </td> <td align="right"> 1 </td> <td align="right"> 188.73 </td> <td align="right"> 188.73 </td> <td align="right"> 0.15 </td> <td align="right"> 0.7036 </td> </tr>
-  <tr> <td> Residuals1 </td> <td align="right"> 37 </td> <td align="right"> 47488.18 </td> <td align="right"> 1283.46 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> F3        </td> <td align="right"> 1 </td> <td align="right"> 14468.54 </td> <td align="right"> 14468.54 </td> <td align="right"> 9.64 </td> <td align="right"> 0.0036 </td> </tr>
-  <tr> <td> F1:F3     </td> <td align="right"> 1 </td> <td align="right"> 619.71 </td> <td align="right"> 619.71 </td> <td align="right"> 0.41 </td> <td align="right"> 0.5244 </td> </tr>
-  <tr> <td> Residuals2 </td> <td align="right"> 37 </td> <td align="right"> 55517.78 </td> <td align="right"> 1500.48 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> F4:F3     </td> <td align="right"> 1 </td> <td align="right"> 6.99 </td> <td align="right"> 6.99 </td> <td align="right"> 0.01 </td> <td align="right"> 0.9105 </td> </tr>
-  <tr> <td> F1:F4:F3  </td> <td align="right"> 1 </td> <td align="right"> 98.24 </td> <td align="right"> 98.24 </td> <td align="right"> 0.18 </td> <td align="right"> 0.6736 </td> </tr>
-  <tr> <td> Residuals3 </td> <td align="right"> 37 </td> <td align="right"> 20165.34 </td> <td align="right"> 545.01 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F1        </td> <td align="right"> 1 </td> <td align="right"> 882.99 </td> <td align="right"> 882.99 </td> <td align="right"> 0.13 </td> <td align="right"> 0.7231 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 263271.89 </td> <td align="right"> 6928.21 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F4        </td> <td align="right"> 1 </td> <td align="right"> 2649.74 </td> <td align="right"> 2649.74 </td> <td align="right"> 2.12 </td> <td align="right"> 0.1536 </td> </tr>
+  <tr> <td> F1:F4     </td> <td align="right"> 1 </td> <td align="right"> 177.36 </td> <td align="right"> 177.36 </td> <td align="right"> 0.14 </td> <td align="right"> 0.7085 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 47501.87 </td> <td align="right"> 1250.05 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F3        </td> <td align="right"> 1 </td> <td align="right"> 15527.56 </td> <td align="right"> 15527.56 </td> <td align="right"> 10.59 </td> <td align="right"> 0.0024 </td> </tr>
+  <tr> <td> F1:F3     </td> <td align="right"> 1 </td> <td align="right"> 748.84 </td> <td align="right"> 748.84 </td> <td align="right"> 0.51 </td> <td align="right"> 0.4791 </td> </tr>
+  <tr> <td> Residuals2 </td> <td align="right"> 38 </td> <td align="right"> 55692.68 </td> <td align="right"> 1465.60 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F4:F3     </td> <td align="right"> 1 </td> <td align="right"> 3.19 </td> <td align="right"> 3.19 </td> <td align="right"> 0.01 </td> <td align="right"> 0.9386 </td> </tr>
+  <tr> <td> F1:F4:F3  </td> <td align="right"> 1 </td> <td align="right"> 113.94 </td> <td align="right"> 113.94 </td> <td align="right"> 0.21 </td> <td align="right"> 0.6459 </td> </tr>
+  <tr> <td> Residuals3 </td> <td align="right"> 38 </td> <td align="right"> 20180.57 </td> <td align="right"> 531.07 </td> <td align="right">  </td> <td align="right">  </td> </tr>
    </table>
 
 *** =pnotes
 *Green*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Mon May 25 11:55:24 2015 -->
+<!-- Sun Jun 14 16:07:55 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
-  <tr> <td> F1        </td> <td align="right"> 1 </td> <td align="right"> 778.87 </td> <td align="right"> 778.87 </td> <td align="right"> 0.10 </td> <td align="right"> 0.7508 </td> </tr>
-  <tr> <td> Residuals </td> <td align="right"> 37 </td> <td align="right"> 281591.97 </td> <td align="right"> 7610.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> F4        </td> <td align="right"> 1 </td> <td align="right"> 356.81 </td> <td align="right"> 356.81 </td> <td align="right"> 0.26 </td> <td align="right"> 0.6152 </td> </tr>
-  <tr> <td> F1:F4     </td> <td align="right"> 1 </td> <td align="right"> 9.09 </td> <td align="right"> 9.09 </td> <td align="right"> 0.01 </td> <td align="right"> 0.9360 </td> </tr>
-  <tr> <td> Residuals1 </td> <td align="right"> 37 </td> <td align="right"> 51373.50 </td> <td align="right"> 1388.47 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> F3        </td> <td align="right"> 1 </td> <td align="right"> 4444.75 </td> <td align="right"> 4444.75 </td> <td align="right"> 7.28 </td> <td align="right"> 0.0104 </td> </tr>
-  <tr> <td> F1:F3     </td> <td align="right"> 1 </td> <td align="right"> 565.78 </td> <td align="right"> 565.78 </td> <td align="right"> 0.93 </td> <td align="right"> 0.3420 </td> </tr>
-  <tr> <td> Residuals2 </td> <td align="right"> 37 </td> <td align="right"> 22590.24 </td> <td align="right"> 610.55 </td> <td align="right">  </td> <td align="right">  </td> </tr>
-  <tr> <td> F4:F3     </td> <td align="right"> 1 </td> <td align="right"> 533.88 </td> <td align="right"> 533.88 </td> <td align="right"> 1.28 </td> <td align="right"> 0.2649 </td> </tr>
-  <tr> <td> F1:F4:F3  </td> <td align="right"> 1 </td> <td align="right"> 154.05 </td> <td align="right"> 154.05 </td> <td align="right"> 0.37 </td> <td align="right"> 0.5468 </td> </tr>
-  <tr> <td> Residuals3 </td> <td align="right"> 37 </td> <td align="right"> 15412.29 </td> <td align="right"> 416.55 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F1        </td> <td align="right"> 1 </td> <td align="right"> 73.03 </td> <td align="right"> 73.03 </td> <td align="right"> 0.01 </td> <td align="right"> 0.9234 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 296380.57 </td> <td align="right"> 7799.49 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F4        </td> <td align="right"> 1 </td> <td align="right"> 275.57 </td> <td align="right"> 275.57 </td> <td align="right"> 0.20 </td> <td align="right"> 0.6549 </td> </tr>
+  <tr> <td> F1:F4     </td> <td align="right"> 1 </td> <td align="right"> 30.31 </td> <td align="right"> 30.31 </td> <td align="right"> 0.02 </td> <td align="right"> 0.8820 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 51601.87 </td> <td align="right"> 1357.94 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F3        </td> <td align="right"> 1 </td> <td align="right"> 5215.12 </td> <td align="right"> 5215.12 </td> <td align="right"> 8.53 </td> <td align="right"> 0.0058 </td> </tr>
+  <tr> <td> F1:F3     </td> <td align="right"> 1 </td> <td align="right"> 793.93 </td> <td align="right"> 793.93 </td> <td align="right"> 1.30 </td> <td align="right"> 0.2615 </td> </tr>
+  <tr> <td> Residuals2 </td> <td align="right"> 38 </td> <td align="right"> 23222.68 </td> <td align="right"> 611.12 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F4:F3     </td> <td align="right"> 1 </td> <td align="right"> 547.02 </td> <td align="right"> 547.02 </td> <td align="right"> 1.35 </td> <td align="right"> 0.2528 </td> </tr>
+  <tr> <td> F1:F4:F3  </td> <td align="right"> 1 </td> <td align="right"> 150.39 </td> <td align="right"> 150.39 </td> <td align="right"> 0.37 </td> <td align="right"> 0.5462 </td> </tr>
+  <tr> <td> Residuals3 </td> <td align="right"> 38 </td> <td align="right"> 15415.95 </td> <td align="right"> 405.68 </td> <td align="right">  </td> <td align="right">  </td> </tr>
    </table>
 
 ---
