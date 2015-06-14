@@ -650,7 +650,7 @@ par(mfrow=c(1, 2))
 
 FILL_RT_BF <- matrix(
   FILL_RT[c(1,2,5,6,9,10,13,14)], 2, 4,
-  dimnames = list(c("C", "I"), c("Within Blocks","Between Blocks", "Within Blocks","Between Blocks"))
+  dimnames = list(c("C", "I"), c("Witin Block","Between Blocks", "Within Block","Between Blocks"))
 )
 
 FILL_RTse_BF <- matrix(
@@ -716,7 +716,7 @@ par(mfrow=c(1, 2))
 
 FILL_RT_GF <- matrix(
   FILL_RT[c(3,4,7,8,11,12,15,16)], 2, 4,
-  dimnames = list(c("C", "I"), c("Within Blocks","Between Blocks", "Within Blocks","Between Blocks"))
+  dimnames = list(c("C", "I"), c("Witin Block","Between Blocks", "Within Block","Between Blocks"))
 )
 
 FILL_RTse_GF <- matrix(
