@@ -83,7 +83,7 @@ Is it match?
 ## Matching Effects
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:39 2015 -->
+<!-- Mon Jun 15 09:45:55 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Match </th> <th> Mismatch </th>  </tr>
   <tr> <td align="center"> RT </td> <td align="center"> 697.00 </td> <td align="center"> 761.00 </td> </tr>
@@ -131,7 +131,7 @@ Zwaan, Stanfield, & Yaxley (2002)
 ---
 ## Original EAST Results
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:40 2015 -->
+<!-- Mon Jun 15 09:45:55 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Word meaning: Happy </th> <th> Word meaning: Disgust </th>  </tr>
   <tr> <td> Compatible Response </td> <td align="right"> 660.00 </td> <td align="right"> 636.00 </td> </tr>
@@ -245,7 +245,7 @@ De Houwer(2003), Experiment 1
 ---
 ## Sentence-Picture Verification: ANOVA
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:42 2015 -->
+<!-- Mon Jun 15 09:45:57 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Group     </td> <td align="right"> 1 </td> <td align="right"> 95736.35 </td> <td align="right"> 95736.35 </td> <td align="right"> 2.41 </td> <td align="right"> 0.1290 </td> </tr>
@@ -276,7 +276,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Blue Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:44 2015 -->
+<!-- Mon Jun 15 09:45:59 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 1024.30 </td> <td align="right"> 1024.30 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7765 </td> </tr>
@@ -298,7 +298,7 @@ De Houwer(2003), Experiment 1
 
 *Twist-Tight*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:44 2015 -->
+<!-- Mon Jun 15 09:45:59 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 259684.77 </td> <td align="right"> 13667.62 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -313,7 +313,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Pick-Hard*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:44 2015 -->
+<!-- Mon Jun 15 09:45:59 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 216265.99 </td> <td align="right"> 11382.42 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -341,7 +341,7 @@ De Houwer(2003), Experiment 1
 ## Word Color Discrimination: Critical Green Words
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:45 2015 -->
+<!-- Mon Jun 15 09:46:01 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Series    </td> <td align="right"> 1 </td> <td align="right"> 685.34 </td> <td align="right"> 685.34 </td> <td align="right"> 0.06 </td> <td align="right"> 0.8106 </td> </tr>
@@ -363,7 +363,7 @@ De Houwer(2003), Experiment 1
 
 *Pick-Soft*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:45 2015 -->
+<!-- Mon Jun 15 09:46:01 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 238706.63 </td> <td align="right"> 12563.51 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -378,7 +378,7 @@ De Houwer(2003), Experiment 1
 *** =pnotes
 *Twist-Loose*
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
-<!-- Sun Jun 14 18:02:46 2015 -->
+<!-- Mon Jun 15 09:46:01 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
   <tr> <td> Residuals </td> <td align="right"> 19 </td> <td align="right"> 208346.24 </td> <td align="right"> 10965.59 </td> <td align="right">  </td> <td align="right">  </td> </tr>
@@ -401,6 +401,46 @@ De Houwer(2003), Experiment 1
 *** =right
 *Green*
 ![plot of chunk Green-Filler](assets/fig/Green-Filler-1.png) 
+
+---   
+
+## Word Color Discrimination: Fillers
+*Blue*
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+<!-- Mon Jun 15 09:46:03 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
+  <tr> <td> F1        </td> <td align="right"> 1 </td> <td align="right"> 5684.16 </td> <td align="right"> 5684.16 </td> <td align="right"> 0.72 </td> <td align="right"> 0.4010 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 299383.24 </td> <td align="right"> 7878.51 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F4        </td> <td align="right"> 1 </td> <td align="right"> 1092.07 </td> <td align="right"> 1092.07 </td> <td align="right"> 1.41 </td> <td align="right"> 0.2431 </td> </tr>
+  <tr> <td> F1:F4     </td> <td align="right"> 1 </td> <td align="right"> 949.03 </td> <td align="right"> 949.03 </td> <td align="right"> 1.22 </td> <td align="right"> 0.2760 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 29519.55 </td> <td align="right"> 776.83 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F3        </td> <td align="right"> 1 </td> <td align="right"> 30.78 </td> <td align="right"> 30.78 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7723 </td> </tr>
+  <tr> <td> F1:F3     </td> <td align="right"> 1 </td> <td align="right"> 958.90 </td> <td align="right"> 958.90 </td> <td align="right"> 2.65 </td> <td align="right"> 0.1121 </td> </tr>
+  <tr> <td> Residuals2 </td> <td align="right"> 38 </td> <td align="right"> 13769.81 </td> <td align="right"> 362.36 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F4:F3     </td> <td align="right"> 1 </td> <td align="right"> 1032.24 </td> <td align="right"> 1032.24 </td> <td align="right"> 1.60 </td> <td align="right"> 0.2139 </td> </tr>
+  <tr> <td> F1:F4:F3  </td> <td align="right"> 1 </td> <td align="right"> 9.45 </td> <td align="right"> 9.45 </td> <td align="right"> 0.01 </td> <td align="right"> 0.9044 </td> </tr>
+  <tr> <td> Residuals3 </td> <td align="right"> 38 </td> <td align="right"> 24543.89 </td> <td align="right"> 645.89 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+   </table>
+
+*** =pnotes
+*Green*
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+<!-- Mon Jun 15 09:46:03 2015 -->
+<table border=1>
+<tr> <th>  </th> <th> Df </th> <th> Sum Sq </th> <th> Mean Sq </th> <th> F value </th> <th> Pr(&gt;F) </th>  </tr>
+  <tr> <td> F1        </td> <td align="right"> 1 </td> <td align="right"> 787.41 </td> <td align="right"> 787.41 </td> <td align="right"> 0.08 </td> <td align="right"> 0.7732 </td> </tr>
+  <tr> <td> Residuals </td> <td align="right"> 38 </td> <td align="right"> 355219.80 </td> <td align="right"> 9347.89 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F4        </td> <td align="right"> 1 </td> <td align="right"> 48.60 </td> <td align="right"> 48.60 </td> <td align="right"> 0.05 </td> <td align="right"> 0.8305 </td> </tr>
+  <tr> <td> F1:F4     </td> <td align="right"> 1 </td> <td align="right"> 450.69 </td> <td align="right"> 450.69 </td> <td align="right"> 0.43 </td> <td align="right"> 0.5154 </td> </tr>
+  <tr> <td> Residuals1 </td> <td align="right"> 38 </td> <td align="right"> 39728.29 </td> <td align="right"> 1045.48 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F3        </td> <td align="right"> 1 </td> <td align="right"> 21.15 </td> <td align="right"> 21.15 </td> <td align="right"> 0.03 </td> <td align="right"> 0.8598 </td> </tr>
+  <tr> <td> F1:F3     </td> <td align="right"> 1 </td> <td align="right"> 0.06 </td> <td align="right"> 0.06 </td> <td align="right"> 0.00 </td> <td align="right"> 0.9926 </td> </tr>
+  <tr> <td> Residuals2 </td> <td align="right"> 38 </td> <td align="right"> 25414.08 </td> <td align="right"> 668.79 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+  <tr> <td> F4:F3     </td> <td align="right"> 1 </td> <td align="right"> 341.32 </td> <td align="right"> 341.32 </td> <td align="right"> 0.55 </td> <td align="right"> 0.4613 </td> </tr>
+  <tr> <td> F1:F4:F3  </td> <td align="right"> 1 </td> <td align="right"> 951.90 </td> <td align="right"> 951.90 </td> <td align="right"> 1.54 </td> <td align="right"> 0.2215 </td> </tr>
+  <tr> <td> Residuals3 </td> <td align="right"> 38 </td> <td align="right"> 23412.54 </td> <td align="right"> 616.12 </td> <td align="right">  </td> <td align="right">  </td> </tr>
+   </table>
 
 ---
 ## Summary

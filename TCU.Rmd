@@ -780,6 +780,22 @@ y.text<-apply((FILL_RT_GF[,c(3,4)] + FILL_RTse_GF[,c(3,4)]),2,max)+6
 text(c("n.s.","n.s."),x=x.text,y=y.text+3)
 ```
 
+---   
+
+## Word Color Discrimination: Fillers
+*Blue*
+```{r Blue-Filler-ANOVA, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+BF_RT.aov <-   aov(RT ~ F1*F4*F3 + Error( ID/(F4*F3) ), data = BLUE_FILL )
+print(xtable(summary( BF_RT.aov ) ), type="html", digits=2)
+```
+
+*** =pnotes
+*Green*
+```{r Green-Filler-ANOVA, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+GF_RT.aov <- aov(RT ~ F1*F4*F3 + Error( ID/(F4*F3) ), data = GREEN_FILL )
+print(xtable(summary( GF_RT.aov ) ), type="html", digits=2)
+```
+
 ---
 ## Summary
 >- Sentence-picture Verification
