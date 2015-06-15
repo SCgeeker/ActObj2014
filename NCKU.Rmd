@@ -680,7 +680,7 @@ sapply(1:dim(Filler_Blue1)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Filler_Blue1)
 y.text<-apply((FILL_RT_BF[,c(1,2)] + FILL_RTse_BF[,c(1,2)]),2,max)+6
-text(c("*.","n.s."),x=x.text,y=y.text+3)
+text(c("*","*"),x=x.text,y=y.text+3)
 
 
 Filler_Blue2 <- barplot2(
@@ -706,7 +706,13 @@ sapply(1:dim(Filler_Blue2)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Filler_Blue2)
 y.text<-apply((FILL_RT_BF[,c(3,4)] + FILL_RTse_BF[,c(3,4)]),2,max)+6
-text(c("n.s.","n.s."),x=x.text,y=y.text+3)
+text(c("*","n.s."),x=x.text,y=y.text+3)
+
+#              Lower      Diff     Upper
+#mu1 - mu2 -38.34797 -22.62394 -6.899923
+#mu3 - mu4 -41.15863 -25.43461 -9.710589
+#mu5 - mu6 -33.06991 -17.34589 -1.621867
+#mu7 - mu8 -29.12963 -13.40561  2.318415
 ```
 
 *** =right
@@ -745,7 +751,7 @@ sapply(1:dim(Filler_Green1)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Filler_Green1)
 y.text<-apply((FILL_RT_GF[,c(1,2)] + FILL_RTse_GF[,c(1,2)]),2,max)+6
-text(c("*","*"),x=x.text,y=y.text+3)
+text(c("n.s.","*"),x=x.text,y=y.text+3)
 
 
 Filler_Green2 <- barplot2(
@@ -771,7 +777,12 @@ sapply(1:dim(Filler_Green2)[2],function(x) lines(x.cord[,x],y.cord[,x]))
 
 x.text<-colMeans(Filler_Green2)
 y.text<-apply((FILL_RT_GF[,c(3,4)] + FILL_RTse_GF[,c(3,4)]),2,max)+6
-text(c("*","n.s."),x=x.text,y=y.text+3)
+text(c("n.s.","n.s."),x=x.text,y=y.text+3)
+#               Lower      Diff    Upper
+#mu1 - mu2  -1.609563 14.114458 29.83848
+#mu3 - mu4   1.908423 17.632444 33.35647
+#mu5 - mu6 -14.397897  1.326125 17.05015
+#mu7 - mu8  -3.123786 12.600236 28.32426
 ```
 
 ---   
