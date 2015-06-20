@@ -254,13 +254,13 @@ detach(AB_DATA)
 
 SP_RT_M <- matrix(
   AB_RT,2,4,
-  dimnames = list(c("C", "I"), c("Close Jar", "Pick Sponge", "Pick Cube", "Open Jar"))
+  dimnames = list(c("C", "I"), c("Close Jar", "Grab Sponge", "Take Cube", "Open Jar"))
 )
 round(SP_RT_M,  digits = 2  )
 
 SP_RTse_M <- matrix(
   rep(AB_RTsd, each=2)*t(c(1/rep(sqrt(nA),4), 1/rep(sqrt(nB),4))),2,4,
- dimnames = list(c("C", "I"), c("Close Jar", "Pick Sponge", "Pick Cube", "Open Jar"))
+ dimnames = list(c("C", "I"), c("Close Jar", "Grab Sponge", "Take Cube", "Open Jar"))
 )
 
 
